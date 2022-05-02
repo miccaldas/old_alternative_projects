@@ -1,0 +1,7 @@
+#!/usr/bin/zsh
+
+python3 post.py
+python3 tags.py
+python3 connections.py
+
+

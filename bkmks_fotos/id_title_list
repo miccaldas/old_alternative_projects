@@ -1,0 +1,141 @@
+|   1 | AutoExpect                                            |o
+|   3 | A brief introduction to GPG                           |o
+|   4 | How to configure Backblaze B2 with Duplicity on Linux |o
+|   5 | Crontab Guru                                          |o
+|   6 | Append Current Date To Filename in Bash Shell         |o
+|   8 | Automated Clonezilla Backup/Restore                   |o
+|   9 | Trending vim color schemes                            |o
+|  10 | ASCII Generator                                       |o
+|  12 | Short URL                                             |o
+|  14 | Good Python SQLite3 Tutorial                          |o
+|  16 | SQLite Tutorial                                       |o
+|  17 | Snap Store                                            |o
+|  18 | Deezer                                                |o
+|  19 | See glyphs in font                                    |o
+|  20 | Machine Learning from Scratch                         |o
+|  21 | Sci-Hub                                               |o
+|  23 | ManyBooks                                             |o
+|  24 | Zlibrary                                              |o
+|  25 | Tresorit Cli                                          |o
+|  26 | Dive Into Deep Learning                               |o
+|  27 | Numpy Quick Start                                     |o
+|  28 | Bitly URL Shortener                                   |o
+|  29 | Python Data Science Handbook Online                   |o
+|  30 | Numpy Exercises Python                                |o
+|  31 | O meu ficheiro no Colab                               |o
+|  32 | Intro to Machine Learning                             |o
+|  33 | Numpy Quick Start                                     |o
+|  34 | Questionary                                           |o
+|  35 | Questionnaire                                         |o
+|  36 | Keybindings in ZSH                                    |o
+|  37 | Normalization Techniques in Python Using NumPy        |o
+|  38 | Router MEO                                            |o
+|  39 | Mailx Cheat Sheet                                     |o
+|  40 | Use Traceroute and MTR                                |o
+|  41 | How to create a Mail server with SSL/TLS on Linux     |o
+|  43 | Icecream Python Debugging Tool                        |o
+|  44 | Trepan Python Debugger                                |o
+|  45 | Git platform where I keep my stuff                    |o
+|  46 | Git Documentation                                     |o
+|  47 | Creating Vim templates                                |o
+|  48 | EverSQL                                               |o
+|  49 | List of Project Based Python Lessons                  |o
+|  50 | Fire                                                  |o
+|  51 | Visidata                                              |o
+|  52 | CliFlix                                               |o
+|  53 | Sultan a simpler subprocess                           |o
+|  54 | Creating FULLTEXT Indexes for Full-Text Search        |o
+|  58 | How To Use Rsync to Sync Local and Remote Directories |o
+|  59 | How to install Gitea                                  |
+|  60 | Rich                                                  |
+|  61 | Cherrypy                                              |
+|  62 | Bookcut                                               |
+|  63 | Artvee                                                |
+|  64 | Lighttpd Documentation                                |
+|  65 | HTML to Markdown Converter                            |
+|  66 | Resize Images                                         |
+|  67 | Ls-colors                                             |
+|  68 | warning: remote HEAD refers to nonexistent ref        |
+|  69 | Getting Started With Nginx                            |
+|  70 | Serve PHP with PHP-FPM and NGINX                      |
+|  71 | How to fetch data from Database in PHP PDO            |
+|  72 | See Icons in Font                                     |
+|  73 | See glyphs in font                                    |
+|  74 | Markdown Cheatsheet                                   |
+|  75 | Vim PHP Code Sniffer                                  |
+|  76 | PHP-CS_FIXER                                          |
+|  77 | How to style a radio buttons form                     |
+|  78 | Password for Web Directories                          |
+|  79 | Free Frontend                                         |
+|  80 | Change Colors of PNG Files                            |
+|  82 | Sass                                                  |
+|  83 | Vertically center an element in CSS                   |
+|  86 | On Scroll Header                                      |
+|  88 | Transformer                                           |
+|  89 | All selectors                                         |
+|  90 | Learn You a Haskell for Great Good!                   |
+|  91 | Code Beautify                                         |
+|  92 | txt2html                                              |
+|  93 | Find and Replace Text in Vim                          |
+|  94 | CSS Frameworks List                                   |
+|  96 | Black                                                 |
+|  97 | Arrow                                                 |
+|  98 | Flake8                                                |
+|  99 | sathadhy                                              |
+| 100 | Urwid                                                 |
+| 101 | Ricepedia                                             |
+| 104 | Fselect                                               |
+| 105 | Navi                                                  |
+| 106 | How2                                                  |
+| 107 | hr                                                    |
+| 108 | k                                                     |
+| 109 | Loop                                                  |
+| 110 | Marker                                                |
+| 111 | SHML                                                  |
+| 112 | add-gitignore                                         |
+| 113 | Visualize Python Code                                 |
+| 114 | Requests                                              |
+| 115 | Scrapy                                                |
+| 116 | pycrumbs                                              |
+| 117 | awesome-awesomeness                                   |
+| 118 | codementor                                            |
+| 119 | Using Scrapy for Python                               |
+| 123 | Pytermgui                                             |
+| 146 | Ripgrep                                               |
+| 147 | Python Projects                                       |
+| 148 | Spell Check in Vim                                    |
+| 149 | Python Like You mean It                               |
+| 153 | Special HTML characters and codes                     |
+| 154 | Google Style Guide                                    |
+| 155 | Orator                                                |
+| 156 | Sed Documentation                                     |
+| 157 | What characters to escape in Sed                      |
+| 158 | Loop through file in Bash                             |
+| 159 | 50 Sed Commands                                       |
+| 160 | Grep, Awk and Sed                                     |
+| 161 | Sed Documentation                                     |
+| 162 | Regex101                                              |
+| 163 | One Liners for Sed                                    |
+| 164 | Sed Cheatsheet                                        |
+| 165 | Regular Expressions Tutorial                          |
+| 166 | XML Parsing                                           |
+| 167 | List of typographical symbols and punctuation marks   |
+| 168 | Project Learn                                         |
+| 169 | Logo-ls                                               |
+| 170 | FuzzyWuzzy                                            |
+| 171 | FuzzyWuzzy Tutorial                                   |
+| 172 | Clipmenu                                              |
+| 173 | Import Python Files From Another Directory            |
+| 174 | Zettelkasten Method                                   |
+| 175 | Bat                                                   |
+| 176 | Deploy Ruby App in Linux Server                       |
+| 177 | LocalTunnel                                           |
+| 178 | Sqlitebiter                                           |
+| 179 | Boxes                                                 |
+| 180 | Pysnooper                                             |
+| 181 | Selenium                                              |
+| 182 | Cli Helpers                                           |
+| 183 | Flask Now                                             |
+| 184 | Add search to Hugo static sites with Lunr             |
+| 185 | SQLAlchemy Tutorial                                   |
++-----+------------------------

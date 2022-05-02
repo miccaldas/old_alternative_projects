@@ -1,0 +1,232 @@
+2021-08-21T01:11:52.874349+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (282938), thread 'MainThread' (140693096273728):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 76, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7ff5a887fc10>
+    └ <__main__.Add object at 0x7ff5a7f92730>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 63, in delete
+    query = " DELETE FROM bkmks WHERE id = " + id
+                                               └ <bound method Application.run of <prompt_toolkit.application.application.Application object at 0x7ff5a7f04130>>
+
+TypeError: can only concatenate str (not "method") to str
+2021-08-21T01:20:34.752795+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (283222), thread 'MainThread' (140018771191616):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 88, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7f58a7ae7550>
+    └ <__main__.Add object at 0x7f58a7ad9f40>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 75, in delete
+    query = " DELETE FROM bkmks WHERE id = " + ident
+                                               └ <bound method Application.run of <prompt_toolkit.application.application.Application object at 0x7f58a7a87a60>>
+
+TypeError: can only concatenate str (not "method") to str
+2021-08-21T01:21:22.336249+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (283258), thread 'MainThread' (140254354749248):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 88, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7f8f818e3550>
+    └ <__main__.Add object at 0x7f8f818d6f40>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 75, in delete
+    query = " DELETE FROM bkmks WHERE id = " + ident
+                                               └ <bound method Application.run of <prompt_toolkit.application.application.Application object at 0x7f8f81884a60>>
+
+TypeError: can only concatenate str (not "method") to str
+2021-08-21T01:24:44.740411+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (283380), thread 'MainThread' (140595656628032):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 88, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7fdef8bba4c0>
+    └ <__main__.Add object at 0x7fdef8badf10>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 75, in delete
+    query = " DELETE FROM bkmks WHERE id = " + ident
+                                               └ <prompt_toolkit.application.application.Application object at 0x7fdef8b5aa30>
+
+TypeError: can only concatenate str (not "Application") to str
+2021-08-21T01:26:28.969998+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (283439), thread 'MainThread' (140011759761216):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 90, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7f5705c484c0>
+    └ <__main__.Add object at 0x7f5705c4c070>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 77, in delete
+    query = " DELETE FROM bkmks WHERE id = " + ident
+                                               └ <prompt_toolkit.application.application.Application object at 0x7f5705be7b50>
+
+TypeError: can only concatenate str (not "Application") to str
+2021-08-21T01:29:45.360046+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (283619), thread 'MainThread' (140039295670080):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 90, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7f5d6f0914c0>
+    └ <__main__.Add object at 0x7f5d6f096070>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 77, in delete
+    query = " DELETE FROM bkmks WHERE id = " + ident
+                                               └ <prompt_toolkit.application.application.Application object at 0x7f5d6f031b50>
+
+TypeError: can only concatenate str (not "Application") to str
+2021-08-21T01:39:19.682285+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (283946), thread 'MainThread' (140173860890432):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 93, in <module>
+    sum.see()
+    │   └ <function Add.see at 0x7f7cc3bfa790>
+    └ <__main__.Add object at 0x7f7cc3bf3820>
+
+TypeError: see() takes 0 positional arguments but 1 was given
+2021-08-21T02:22:00.036348+0100 - bkmk_class - ERROR - An error has been caught in function '<module>', process 'MainProcess' (285313), thread 'MainThread' (140333114324800):
+Traceback (most recent call last):
+
+  File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 3, in <module>
+    from bkmk_class import add_bkmk
+
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 143, in <module>
+    sum.delete()
+    │   └ <function Add.delete at 0x7fa1d7fe4670>
+    └ <bkmk_class.Add object at 0x7fa1d7fd6fd0>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 54, in delete
+    query = " DELETE FROM bkmks WHERE id = " + ident
+                                               └ None
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-08-21T02:22:00.732797+0100 - bkmk_class - ERROR - An error has been caught in function '<module>', process 'MainProcess' (285313), thread 'MainThread' (140333114324800):
+Traceback (most recent call last):
+
+  File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 3, in <module>
+    from bkmk_class import add_bkmk
+
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 145, in <module>
+    sum.search()
+    │   └ <function Add.search at 0x7fa1d7fe4d30>
+    └ <bkmk_class.Add object at 0x7fa1d7fd6fd0>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 96, in search
+    " SELECT * FROM bkmks WHERE MATCH(title, comment, link, k1, k2, k3) AGAINST ('"
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-08-21T02:22:02.503849+0100 - bkmk_class - ERROR - An error has been caught in function '<module>', process 'MainProcess' (285313), thread 'MainThread' (140333114324800):
+Traceback (most recent call last):
+
+  File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 3, in <module>
+    from bkmk_class import add_bkmk
+
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+
+> File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 146, in <module>
+    sum.update()
+    │   └ <function Add.update at 0x7fa1d7fe80d0>
+    └ <bkmk_class.Add object at 0x7fa1d7fd6fd0>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 128, in update
+    query = "UPDATE bkmks SET " + coluna + " = '" + update + "' WHERE id = " + ident
+                                  │                 │                          └ None
+                                  │                 └ None
+                                  └ None
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-08-31T03:21:04.484301+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (476774), thread 'MainThread' (140007154063168):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 61, in <module>
+    sum.update()
+    │   └ <function Add.update at 0x7f55f33ff940>
+    └ <bkmk_class.Add object at 0x7f55f317a940>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 202, in update
+    query = "UPDATE bkmks SET " + coluna + " = '" + update + "' WHERE id = " + ident
+                                  │                 │                          └ None
+                                  │                 └ None
+                                  └ 'k3'
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-08-31T03:21:04.484301+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (476774), thread 'MainThread' (140007154063168):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 61, in <module>
+    sum.update()
+    │   └ <function Add.update at 0x7f55f33ff940>
+    └ <bkmk_class.Add object at 0x7f55f317a940>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 202, in update
+    query = "UPDATE bkmks SET " + coluna + " = '" + update + "' WHERE id = " + ident
+                                  │                 │                          └ None
+                                  │                 └ None
+                                  └ 'k3'
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-10-24T21:25:58.143122+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (267802), thread 'MainThread' (140498688845632):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 59, in <module>
+    sum.search()
+    │   └ <function Add.search at 0x7fc865046670>
+    └ <bkmk_class.Add object at 0x7fc864dab190>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 157, in search
+    " SELECT * FROM bkmks WHERE MATCH(title, comment, link, k1, k2, k3) AGAINST ('"
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-10-24T21:25:58.143122+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (267802), thread 'MainThread' (140498688845632):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 59, in <module>
+    sum.search()
+    │   └ <function Add.search at 0x7fc865046670>
+    └ <bkmk_class.Add object at 0x7fc864dab190>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 157, in search
+    " SELECT * FROM bkmks WHERE MATCH(title, comment, link, k1, k2, k3) AGAINST ('"
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-10-26T00:15:54.913876+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (422929), thread 'MainThread' (140378982209344):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 59, in <module>
+    sum.search()
+    │   └ <function Add.search at 0x7fac85f22670>
+    └ <bkmk_class.Add object at 0x7fac85d88820>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 157, in search
+    " SELECT * FROM bkmks WHERE MATCH(title, comment, link, k1, k2, k3) AGAINST ('"
+
+TypeError: can only concatenate str (not "NoneType") to str
+2021-10-26T00:15:54.913876+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (422929), thread 'MainThread' (140378982209344):
+Traceback (most recent call last):
+
+> File "/home/mic/python/prompt_toolkit_bkmks/main.py", line 59, in <module>
+    sum.search()
+    │   └ <function Add.search at 0x7fac85f22670>
+    └ <bkmk_class.Add object at 0x7fac85d88820>
+
+  File "/home/mic/python/prompt_toolkit_bkmks/bkmk_class.py", line 157, in search
+    " SELECT * FROM bkmks WHERE MATCH(title, comment, link, k1, k2, k3) AGAINST ('"
+
+TypeError: can only concatenate str (not "NoneType") to str

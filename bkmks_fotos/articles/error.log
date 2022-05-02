@@ -1,0 +1,36 @@
+2021-10-26T22:42:36.151456+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (650110), thread 'MainThread' (139773237700416):
+Traceback (most recent call last):
+
+> File "/srv/http/bkmks_fotos/articles/create_md_page.py", line 64, in <module>
+    create_md_page()
+    └ <function create_md_page at 0x7f1f7d2f19d0>
+
+  File "/srv/http/bkmks_fotos/articles/create_md_page.py", line 31, in create_md_page
+    with open(writepath, "w+") as file:
+              └ '/srv/http/bkmks_fotos/md_files/AutoExpect.md'
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/bkmks_fotos/md_files/AutoExpect.md'
+2021-10-26T22:45:17.536433+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (650315), thread 'MainThread' (139847743735616):
+Traceback (most recent call last):
+
+> File "/srv/http/bkmks_fotos/articles/create_md_page.py", line 64, in <module>
+    create_md_page()
+    └ <function create_md_page at 0x7f30d616f9d0>
+
+  File "/srv/http/bkmks_fotos/articles/create_md_page.py", line 31, in create_md_page
+    with open(writepath, "w+") as file:
+              └ '/srv/http/bkmks_fotos/md_files/AutoExpect.md'
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/bkmks_fotos/md_files/AutoExpect.md'
+2021-10-26T22:47:04.096484+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (650374), thread 'MainThread' (140330316080960):
+Traceback (most recent call last):
+
+> File "/srv/http/bkmks_fotos/articles/create_md_page.py", line 64, in <module>
+    create_md_page()
+    └ <function create_md_page at 0x7fa131a499d0>
+
+  File "/srv/http/bkmks_fotos/articles/create_md_page.py", line 31, in create_md_page
+    with open(writepath, "w+") as file:
+              └ '/srv/http/bkmks_fotos/md_files/AutoExpect.md'
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/bkmks_fotos/md_files/AutoExpect.md'

@@ -1,0 +1,209 @@
+2021-11-09T12:20:39.089547+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (264997), thread 'MainThread' (140119111202624):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 156, in __getattr__
+    return self.__getitem__(key)
+           │    │           └ 'pubDate'
+           │    └ <function FeedParserDict.__getitem__ at 0x7f7004a36700>
+           └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 113, in __getitem__
+    return dict.__getitem__(self, key)
+                            │     └ 'pubDate'
+                            └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+
+KeyError: 'pubDate'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/srv/http/django_rss/rss/apagar.py", line 23, in <module>
+    apagar()
+    └ <function apagar at 0x7f7004ec5b80>
+
+  File "/srv/http/django_rss/rss/apagar.py", line 17, in apagar
+    date = feed.entries[index].pubDate
+           │            └ 0
+           └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'aut...
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 158, in __getattr__
+    raise AttributeError("object has no attribute '%s'" % key)
+                                                          └ 'pubDate'
+
+AttributeError: object has no attribute 'pubDate'
+2021-11-09T12:23:29.624613+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (265064), thread 'MainThread' (140188884916032):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 156, in __getattr__
+    return self.__getitem__(key)
+           │    │           └ 'pubDate'
+           │    └ <function FeedParserDict.__getitem__ at 0x7f804379c700>
+           └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 113, in __getitem__
+    return dict.__getitem__(self, key)
+                            │     └ 'pubDate'
+                            └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+
+KeyError: 'pubDate'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/srv/http/django_rss/rss/apagar.py", line 23, in <module>
+    apagar()
+    └ <function apagar at 0x7f8043c2bb80>
+
+  File "/srv/http/django_rss/rss/apagar.py", line 17, in apagar
+    date = feed.entries[index].pubDate
+           │            └ 0
+           └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'aut...
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 158, in __getattr__
+    raise AttributeError("object has no attribute '%s'" % key)
+                                                          └ 'pubDate'
+
+AttributeError: object has no attribute 'pubDate'
+2021-11-09T12:28:40.851088+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (265295), thread 'MainThread' (140188135106368):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 156, in __getattr__
+    return self.__getitem__(key)
+           │    │           └ 'pubDate'
+           │    └ <function FeedParserDict.__getitem__ at 0x7f8016c89700>
+           └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 113, in __getitem__
+    return dict.__getitem__(self, key)
+                            │     └ 'pubDate'
+                            └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+
+KeyError: 'pubDate'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/srv/http/django_rss/rss/apagar.py", line 23, in <module>
+    apagar()
+    └ <function apagar at 0x7f8017118b80>
+
+  File "/srv/http/django_rss/rss/apagar.py", line 17, in apagar
+    date = feed.entries[index].pubDate
+           │            └ 0
+           └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'aut...
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 158, in __getattr__
+    raise AttributeError("object has no attribute '%s'" % key)
+                                                          └ 'pubDate'
+
+AttributeError: object has no attribute 'pubDate'
+2021-11-09T12:34:10.672616+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (265597), thread 'MainThread' (139918481114944):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 156, in __getattr__
+    return self.__getitem__(key)
+           │    │           └ 'pubDate'
+           │    └ <function FeedParserDict.__getitem__ at 0x7f414e273700>
+           └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 113, in __getitem__
+    return dict.__getitem__(self, key)
+                            │     └ 'pubDate'
+                            └ {'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'author_detail': {'name': '/u/Co...
+
+KeyError: 'pubDate'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/srv/http/django_rss/rss/apagar.py", line 24, in <module>
+    apagar()
+    └ <function apagar at 0x7f414e702b80>
+
+  File "/srv/http/django_rss/rss/apagar.py", line 17, in apagar
+    date = feed.entries[index].pubDate
+           │            └ 0
+           └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/ColonelNein', 'href': 'https://www.reddit.com/user/ColonelNein'}], 'aut...
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 158, in __getattr__
+    raise AttributeError("object has no attribute '%s'" % key)
+                                                          └ 'pubDate'
+
+AttributeError: object has no attribute 'pubDate'
+2021-11-09T12:37:31.902007+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (265733), thread 'MainThread' (139702451828544):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 156, in __getattr__
+    return self.__getitem__(key)
+           │    │           └ 'pubDate'
+           │    └ <function FeedParserDict.__getitem__ at 0x7f0f01cde700>
+           └ {'authors': [{'name': '/u/Droider412', 'href': 'https://www.reddit.com/user/Droider412'}], 'author_detail': {'name': '/u/Droi...
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 113, in __getitem__
+    return dict.__getitem__(self, key)
+                            │     └ 'pubDate'
+                            └ {'authors': [{'name': '/u/Droider412', 'href': 'https://www.reddit.com/user/Droider412'}], 'author_detail': {'name': '/u/Droi...
+
+KeyError: 'pubDate'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/srv/http/django_rss/rss/apagar.py", line 25, in <module>
+    apagar()
+    └ <function apagar at 0x7f0f0216db80>
+
+  File "/srv/http/django_rss/rss/apagar.py", line 17, in apagar
+    date = feed.entries[index].pubDate
+           │            └ 0
+           └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/Droider412', 'href': 'https://www.reddit.com/user/Droider412'}], 'autho...
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 158, in __getattr__
+    raise AttributeError("object has no attribute '%s'" % key)
+                                                          └ 'pubDate'
+
+AttributeError: object has no attribute 'pubDate'
+2021-11-09T12:48:46.751345+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (266197), thread 'MainThread' (140138302764864):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 156, in __getattr__
+    return self.__getitem__(key)
+           │    │           └ 'icon'
+           │    └ <function FeedParserDict.__getitem__ at 0x7f747c8b6700>
+           └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/Droider412', 'href': 'https://www.reddit.com/user/Droider412'}], 'autho...
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 113, in __getitem__
+    return dict.__getitem__(self, key)
+                            │     └ 'icon'
+                            └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/Droider412', 'href': 'https://www.reddit.com/user/Droider412'}], 'autho...
+
+KeyError: 'icon'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/srv/http/django_rss/rss/apagar.py", line 27, in <module>
+    apagar()
+    └ <function apagar at 0x7f747cd45b80>
+
+  File "/srv/http/django_rss/rss/apagar.py", line 23, in apagar
+    print(feed.icon)
+          └ {'bozo': False, 'entries': [{'authors': [{'name': '/u/Droider412', 'href': 'https://www.reddit.com/user/Droider412'}], 'autho...
+
+  File "/usr/lib/python3.9/site-packages/feedparser/util.py", line 158, in __getattr__
+    raise AttributeError("object has no attribute '%s'" % key)
+                                                          └ 'icon'
+
+AttributeError: object has no attribute 'icon'

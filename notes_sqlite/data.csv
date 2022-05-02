@@ -1,0 +1,988 @@
+1|See inside drives without mounting|drives|devices|mount|debugfs -R 'ls -l' /dev/sda6|2020-12-16 23:08:20
+2|Reminder For When Recovering Folders From Backup|folders|backup|backblaze|"
+ When recovering files on folder backup disk,
+ (sdd), remember to create .cache file in
+ /home, .cache file in /root, cache file
+ in var
+ "|2020-12-16 23:09:51
+3|Copy/Paste in Nano|copy|paste|nano|"
+ To copy/paste in nano, use the following commands:
+ ALt-a to set mark
+ Ctl-k to cut
+ Ctl-u to uncut in the same place
+ Ctl-u to uncut to new location
+ "|2020-12-16 23:10:33
+4|Add Timestamp to Command|timestamp|time|add|"
+ Juntar um timestamp a um comando:
+ ------------------------------------
+ command | ts '[%Y-%m-%d %H:%M:%S]'
+ ------------------------------------
+ ts vem no package 'moreutils'.
+ https://bit.ly/396SxtG
+ "|2020-12-16 23:11:32
+5|Append date to a filename|date|append|file|
+Append date to a file name:
+echo 'export now=$(date +"%m_%d_%Y")' >> /home/mic/.zshenv
+source /home/mic/.zshenv
+touch ~/log-$now.log
+|2020-12-16 23:12:04
+6|Make Incremental Backups With Tar|tar|incremental|backup|"
+ Create incremental backups with tar, in tar.gz format:
+ ------------------------------------------------------
+ tar  --listed-incremental=<folder_name>-snapshot.file \
+ -czf <folder_name>-$now.tar.gz /boot
+ -------------------------------------------------------
+ https://bit.ly/3qNYHVQ
+ /home/mic/sripts/incremental_backup.sh
+ "|2020-12-16 23:12:53
+7|Send Notifications Through Cron|cron|notifications|notify-send|"
+ To send notifications through cron (as done in the todo app),
+ the command in the cron jobs need the following structure:
+ -------------------------------------------------------------
+ export DISPLAY=:0.0 && XDG_RUNTIME_DIR=/run/user/$(id -u) \
+ /usr/bin/notify-send '<text for notifications>'
+ -------------------------------------------------------------
+ Remember it must be sent as root. 'sudo crontab -e'
+ "|2020-12-16 23:14:45
+8|Command to Use Duplicity With Backblaze|backblaze|duplicity|backup|sudo duplicity / b2://00081b448e6173c0000000003:K000cicptHJ94U7Lw9AwcklPfrYT7pM@computer-image|2020-12-16 23:15:52
+10|Ignore Error Flake8|flake8|error|ignore|"
+ Add to the IGNORE list in the file:
+ /usr/lib/python3.9/site-packages/flake8/defaults.py
+ "|2020-12-17 16:50:36
+11|List Triggers in SQLite db|triggers|sqlite|search| select * from sqlite_master where type = 'trigger'; |2020-12-17 17:17:35
+12|CC|cc|card|credit|"
+ 4194 6000 0910 2968
+ 11/21
+ 61i8
+ "|2020-12-17 22:50:29
+13|Install python package from source|python|package|setup.py|sudo python setup.py install|2020-12-18 03:28:10
+14|Backblaze Keys|backblaze|keys|backups|"
+ keyID: 00081b448e6173c0000000003
+ keyname: mickey
+ applicationKey: K000cicptHJ94U7Lw9AwcklPfrYT7pM
+ "|2020-12-18 17:26:35
+15|See processes that are preventing unmounting|umount|mount|unmounting|"
+ lsof | grep /media/whatever
+ "|2020-12-19 02:28:25
+16|Create an empty array in numpty and append elements|numpy|array|append|"
+ ---------------------------------------
+ arr = np.array([])
+ arr = np.append(arr, np.array([1,2,3]))
+ arr = np.append(arr, np.array([4,5,6]))
+ # arr is now [1,2,3,4,5,6]
+ ---------------------------------------
+ https://bit.ly/3sSxlzs
+ "|2021-01-08 20:04:29
+17|Numpy Fancy Indexing|numpy|fancy indexing|indexing|"
+ Fancy indexing allows us to select entire rows or columns out of
+ order.
+ Fancy indexing allows us to grab any row using its index, let’s
+ grab row 1, 2 and 3.
+ We need to pass in a list of required rows in square brackets:
+ Let's suppose a 2D array named 'arr':
+ ----------------------------------------------------------------
+ arr[[1,2,3]]
+ output: array([[1,1,1],
+                [2,2,2],
+                [3,3,3]])
+ ----------------------------------------------------------------
+ Now with columns:
+ ---------------------------------------------------------------
+ arr[:,[3,2]]
+ output: array([[3,2],
+                [7,6],
+                [1,0],
+                [0,1]])
+ -----------------------------------------------------------------
+ "|2021-01-09 12:32:42
+18|Boolean Mask Arrays|numpy|boolean|mask|"
+ Boolean mask is very useful and handy, when it comes to count, modify,
+ extract or manipulate values in an array based on certain condition
+ or criteria:
+ --------------------------------------------------------------------
+ arr([1,2,3,4,5,6,7,8,9])
+ --------------------------------------------------------------------
+ Now we create a boolean condition:
+ --------------------------------------------------------------------
+ bool_array = arr > 3
+ print(bool_array)
+ output: array([False,False,False,True,True,True,True,True,True])
+ -------------------------------------------------------------------
+ Now we create a boolean mask to filter all even numbers in 'arr':
+ -------------------------------------------------------------------
+ mask = 0 == arr % 2
+ print(mask)
+ output: array([False,True,False,True,False,True,False,True,False])
+ ------------------------------------------------------------------
+ Now with our mask, 'mask', we index on 'arr', that will return a
+ 1D array with the values that satisfy the condition:
+ ------------------------------------------------------------------
+ even_values = arr[mask]
+ print(even_values)
+ output: [2,4,6,8]
+ ------------------------------------------------------------------
+ https://bit.ly/2MPWcUb
+ "|2021-01-09 12:55:05
+19|Send a email through Mail|mail|cli|email|"
+ To send an email through the cli app 'mail',
+ this is what you have to do:
+ ---------------------------------------------
+ mail destination@email.com
+ Subject: Hello World
+ Email Body.
+ .
+ <ctl+d>
+ --------------------------------------------
+ To end the mail it is needed to put a dot in
+ a clean line, and then press Control-D, to
+ exit.
+ To send an attachment:
+---------------------------------------------
+ mail -A /opt/backup.sql -s Backup File \
+ user@example.com < /dev/null
+---------------------------------------------
+"|2021-01-09 22:26:47
+21|Servers|server|servers|servidores|"
+ sickly
+ 140.82.58.233
+ calmocolirio
+ -------------------------
+ machine
+ 45.76.37.62
+ constantconstipation.club
+ dour dessicant
+ "|2021-01-11 14:06:01
+22|Enviar mail de cli|mail|mailx|cli|"
+ Para enviar um mail de uma das apps minimais de mail da linux
+ o modelo é simples. One-liner:
+ -------------------------------------------------------------
+ echo 'message-body' | mail -s 'Title' email@sent.to
+ -------------------------------------------------------------
+ Or just write 'mail email@sent.to', and prompts will come for
+ ypu, write the rest. Exit with ctl-d
+ "|2021-01-12 05:24:38
+23|Journalctl by PID|journalctl|pid|search|"
+ To search journalctl by pid, say 2355,
+ do the following:
+ --------------------------------------
+'sudo journalctl _PID=2355'
+---------------------------------------
+"|2021-01-13 14:18:56
+24|Give write permissions to multiple users on a folder|permissions|users|chmod|"
+ 1 - Create new group:
+ -------------------------------------------------
+ sudo groupadd <new_group>
+ -------------------------------------------------
+ 2 - Add users to it:
+ -------------------------------------------------
+ sudo usermod -a -G <new_group> <user1>
+ sudo usermod -a -G <new_group> <user2>
+ -------------------------------------------------
+ 3 - Set new permissions:
+ -------------------------------------------------
+ sudo chgrp -R <new_group> /path/to/the/directory
+ sudo chmod -R 770 /path/to/the/directory
+ -------------------------------------------------
+ "|2021-01-13 15:15:06
+25|Grep Usage|grep|search text|folder|"
+ To search for a text pattern in a given area, use grep:
+ -------------------------------------------------------
+ 'grep -r <pattern> </path>'
+ -------------------------------------------------------
+ As you used the '-r' flag, it will look recursively.
+ https://bit.ly/3c91pRq
+ "|2021-01-13 16:20:04
+26|Using openssl to connect externally|openssl|ssl|mail|"
+  This subject came to me, when I needed to connect with a mail
+  server that had ssl encryptation. To link to it you do the
+  following:
+  --------------------------------------------------------------
+  openssl s_client --connect <server name:port>
+  --------------------------------------------------------------
+  After that it will probably be needed login information, which
+  can be inputted in the following manner:
+  --------------------------------------------------------------
+  a1 login <username> <password>
+   -------------------------------------------------------------
+  Notice the 'a1' tag. It can be anything you like, but it must
+  be consistent. For instances, after 'a1' must come 'a2', and
+  so on.
+  --------------------------------------------------------------
+  a2 list '' '*'
+  --------------------------------------------------------------
+  Shows a list of your mailboxes.
+  -------------------------------------------------------------
+  a3 examine <mailbox name>
+  -------------------------------------------------------------
+  Gives you metadata about the mailbox.
+  -------------------------------------------------------------
+  a4 select <mailbox name>
+  -------------------------------------------------------------
+  Selects a particular mailbox
+  -------------------------------------------------------------
+  a5 fetch 1 body[]
+  -------------------------------------------------------------
+  Fetches the first email in the mailbox.
+  -------------------------------------------------------------
+  For more information see:
+  https://bit.ly/38HrK76
+  https://tools.ietf.org/html/rfc3501#page-27
+  "|2021-01-14 18:45:18
+27|Send script output to journalctl|journalctl|logging|logs|"
+ To send the script output to journalctl,
+ you do the following:
+ ----------------------------------------
+ sudo systemd-cat ./path/to/script
+ ----------------------------------------
+ "|2021-01-16 15:44:17
+28|Create Bindkeys in ZSH|bind|keys|bindkeys|"
+  To bind a key to a preset command or a command of your own, we first
+  need to know what is the code of the key that you intend on using.
+  Let's say I want to use the F2 key;
+  ------------------------------------------------------------------------------
+  1 - 'showkey -a'
+  ------------------------------------------------------------------------------
+ 	After opening the session, just click on the key you want:
+  ------------------------------------------------------------------------------
+  2 - 'F2'
+  3 - ^[OQ 	 27 0033 0x1b
+  	 		 79 0117 0x4f
+  	         81 0121 0x51
+  ------------------------------------------------------------------------------
+  The code to use is '^[OQ'. Then it can be as simple as:
+  ------------------------------------------------------------------------------
+  bindkey ^[OQ 'ls -la'
+  ------------------------------------------------------------------------------
+  or more complex as the case of the one that opens a file in the right
+  side of current window, as a scratchpad:
+  ------------------------------------------------------------------------------
+  bindkey -s '^[OQ tilix -a session-add-right -x '\
+  micro /home/mic/scratchpad'<simbolo de acento circumflexo>M
+  -------------------------------------------------------------------------------
+  https://bit.ly/3c9doyn
+  "|2021-01-17 20:25:53
+29|Using Python Debugger Trepan3k|trepan3k|debug|debugger|"
+ To use the Trepan3k (python 3 version of Trepan2), we can,as an
+ example, construct the following command line expression:
+ ----------------------------------------------------------------
+ trepan3k --highlight=light -o <somefile.txt> file_to_debugged.py
+ ----------------------------------------------------------------
+ The flag '--highlight', colorizes the output. It can be light or
+ dark.
+ The flag '-o' defines to what file will go the output of the
+ debugging. BEWARE, if you choose this, you wont see the output
+ when running it from the terminal.
+ https://python2-trepan.readthedocs.io
+ "|2021-01-18 03:15:28
+30|Edit command line commands in Editor|editor|command line|editing|"
+ Suppose you are typing a very long command line:
+ PATH='/home/alw/bin:/home/alw/bin:/home/alw/bin:
+ /usr/local/sbin:/usr/local/bin:/usr/sbin:
+ /usr/bin:/sbin:/bin:/usr/games:/usr/local/games:
+ /snap/bin'
+ You discover a mistake before you hit Enter. Or
+ you discover it later and call the line back in
+ your history. You can edit on the command line,
+ of course, but if you prefer your editor of
+ choice press Control+X Control+E. Your default
+ editor (usually set with $EDITOR or $VISUAL)
+ will start with the command loaded.
+ https://bit.ly/2Y96wc4
+ "|2021-01-18 03:28:16
+31|Make output into columns|columns|output|terminal|"
+ Many commands output text that is hard to read
+ because the data isn’t lined up well.
+ For example, try:
+ -----------------------------------------------
+ mount
+ ----------------------------------------------
+ Use the column command to make things easier:
+ ----------------------------------------------
+ mount | column -t
+ ----------------------------------------------
+ https://bit.ly/2Y96wc4
+ "|2021-01-18 03:29:41
+32|Creating a line break in Markdown|markdown|line break|notabug|To create a line break in Markdown, add two spaces in the end of the line.|2021-01-18 16:29:29
+33|How to read a file into a list|python|list|file|"
+ ----------------------------------------------
+ with open('C:/path/numbers.txt') as f:
+     lines = f.read().splitlines()
+ ---------------------------------------------
+ this will give you a list of values (strings)
+ you had in your file, with newlines stripped.
+ https://bit.ly/38TxQ4y
+ "|2021-01-19 00:20:14
+34|Deleting lines from a file|python|delete|file|"
+ You need to open the file and read its contents in memory,
+ then open the file again write the line to it but without
+ the line you wish to omit
+ Example:
+ ---------------------------------------------------------
+ with open('yourfile.txt', 'r') as f:
+     lines = f.readlines()
+ with open('yourfile.txt', 'w') as f:
+     for line in lines:
+             if line.strip('\n') != 'nickname_to_delete':
+                 f.write(line)'
+ --------------------------------------------------------
+ https://bit.ly/3nUlzRp
+ "|2021-01-19 01:15:35
+35|Print file content|python|file|print|"
+ Opening a file in python for reading is easy:
+ with open('example.txt', 'r') as f:
+ To get everything in the file, just use read()
+     file_contents = f.read()
+ And to print the contents, just do:
+     print (file_contents)
+ https://bit.ly/3io5Ucd
+ "|2021-01-19 01:19:35
+36|Create triggers for Sqlite3 DB's|sqlite|trigger|triggers|"
+ Here's one example of the three trigger you must create:
+ ---------------------------------------------------------------------------
+ CREATE TRIGGER aft_insert AFTER INSERT ON pwd
+ BEGIN
+ INSERT INTO pwd_fts(pwdid, site, username, passwd, comment, time)
+ VALUES(new.pwdid, new.site, new.username, new.passwd, new.comment, new.time);
+ END;
+ ---------------------------------------------------------------------------
+ CREATE TRIGGER aft_del AFTER DELETE ON pwd
+ BEGIN
+INSERT INTO pwd_fts(pwdid, site, username, passwd, comment, time)
+ VALUES ('delete', old.pwdid, old.site, old.username, old.passwd, old.comment, old.time);
+ END;
+ --------------------------------------------------------------------------
+ CREATE TRIGGER aft_updt AFTER UPDATE ON pwd
+ BEGIN
+ INSERT INTO pwd_fts(pwdid, site, username, passwd, comment, time)
+ VALUES ('delete', old.pwdid, old.site, old.username, old.passwd, old.comment, old.time);
+ INSERT INTO pwd_fts(pwdid, site, username, passwd, comment, time)
+ VALUES(new.pwdid, new.site, new.username, new.passwd, new.comment, new.time);
+ END;
+ --------------------------------------------------------------------------
+ "|2021-01-19 02:46:23
+37|Create Sqlite3 Table|sqlite|table|tables|"
+ Example:
+ ------------------------------------------
+ CREATE TABLE notes (
+ id INTEGER PRIMARY KEY,
+ title TEXT,
+ k1 TEXT,
+ k2 TEXT,
+ k3 TEXT,
+ note TEXT,
+ time DATETIME DEFAULT CURRENT_TIMESTAMP);
+ ------------------------------------------
+ "|2021-01-19 02:48:29
+38|Alter Sqlite Table|table|tables|sqlite|"
+ Para alterar uma table que não possa ser alterada por
+ sqlite-utils,podemos usar este modelo. É também mais seguro,
+ que o sqlite-utils também faz alguma merda.
+ -------------------------------------------------------------
+ PRAGMA foreign_keys=off;
+ BEGIN TRANSACTION;
+ CREATE TABLE IF NOT EXISTS new_table(
+    column_definition,
+ );
+ INSERT INTO new_table(column_list)
+ SELECT column_list
+ FROM table;
+ DROP TABLE table;
+ ALTER TABLE new_table RENAME TO table;
+ COMMIT;
+ PRAGMA foreign_keys=on;
+ -------------------------------------------------------------
+ "|2021-01-19 02:50:27
+39|Create a Sqlite Virtual Table|fts5|virtual|sqlite|"
+ Example:
+ ------------------------------------------------------------
+ CREATE VIRTUAL TABLE BookSearch USING fts5(ID, Title, Desc);
+ INSERT INTO BookSearch SELECT ID, Title, Desc FROM Book;
+ ------------------------------------------------------------
+ Search like this:
+ ------------------------------------------------------------
+ SELECT Title FROM BookSearch WHERE BookSearch MATCH 'cat';
+ ------------------------------------------------------------
+ "|2021-01-19 03:11:06
+40|How to Use Twzer|twzer|url shortener|shortener|"
+ To use Twzer, a command line URL shortener and
+ expander, do the following:
+ Shorten a link using Bitly with --bitly or -b:
+ 'twzer sh -b https://example.com'
+ Expand a link using Google with --google or -g:
+ 'twzer ex -g https://goo.gl/F0pE'
+ "|2021-01-19 04:18:56
+41|Create Dictionary With Multiple Values|dictionary|python|key|"
+ There are a couple of ways to add values to key, and to create a list
+ if one isn't already there. I'll show one such method in little steps.
+ ----------------------------------------------------------------------
+ key = somekey
+ a.setdefault(key, [])
+ a[key].append(1)
+ ----------------------------------------------------------------------
+ Results:
+ ----------------------------------------------------------------------
+ >>> a
+ {'somekey': [1]}
+ Next, try:
+ key ='somekey'
+ a.setdefault(key, [])
+ a[key].append(2)
+ -----------------------------------------------------------------------
+ Results:
+ -----------------------------------------------------------------------
+ >>> a
+ {'somekey': [1, 2]}
+ ------------------------------------------------------------------------
+ The magic of setdefault is that it initializes the value for that key
+ if that key is not defined, otherwise it does nothing. Now, noting
+ that setdefault returns the key you can combine these into a single line:
+ -------------------------------------------------------------------------
+ a.setdefault('somekey',[]).append('bob')
+ -------------------------------------------------------------------------
+ Results:
+ -------------------------------------------------------------------------
+ >>> a
+ {'somekey': [1, 2, 'bob']}
+ -------------------------------------------------------------------------
+ https://bit.ly/3p3h2O4
+ "|2021-01-19 14:25:05
+42|Write a Timestamp in SQLite|sqlite|timestamp|time|"
+ CREATE TABLE MyTable(
+   ...
+   ...
+   'time' TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+ "|2021-01-19 14:43:17
+43|Command Line Calculator|calculator|command line|linux|"
+ The command to access the calculator is 'bc'.
+ https://bit.ly/3sHYk0P
+ "|2021-01-20 00:58:20
+44|Convert Dictionary Values To a List|dictionary|list|python|"
+ Converting the values of a dictionary to a list creates a new list
+ where each element is a value from the dictionary. For example,
+ converting the values of {a:1,b:2} to a list results in [1,2].
+ Call dict.values() to create a view of the dictionary's values.
+ Use list(item) with the view of dictionary values as item to return
+ a list.
+ Example:
+ a_dictionary = {a: 1, b: 2}
+ values = a_dictionary.values()
+ Retrieve dictionary values
+ values_list = list(values)
+ Convert to list
+ print(values_list)
+ "|2021-01-20 02:51:45
+46|SQLite Full Text Searching|full text|fulltext|sqlite|"
+ CREATE VIRTUAL TABLE BookSearch USING fts5(ID, Title, Desc, tokenize = unicode61 tokenchars './-\^|');
+ INSERT INTO BookSearch SELECT ID, Title, Desc FROM Book;
+ "|2021-01-24 00:45:48
+47|Aspell Micro Plugin|aspell|micro|plugin|"
+ The aspell plugin for the Micro editor is a spell-checker.
+ It starts automatically and you just have to accept or not
+ the suggestions. You can accept suggestions via this
+ command:
+ ----------------------------------------------------------
+ acceptsug 'n'
+ ----------------------------------------------------------
+ Or use the 'Tab' key to cycle through possibilities and
+ accept.
+ It should be noted that the tab shortcut is not just for
+ accepting suggestions, you can also do autocomplete,
+ indent the selected text, or insert tab.
+ You can add words that aspell considers a mistake, to your
+ personal dictionary, and this way they won't be picked
+ again. The command for this is:
+ ----------------------------------------------------------
+ addpersonal
+ ----------------------------------------------------------
+  https://bit.ly/39c21Uz
+ "|2021-01-24 03:05:43
+48|Create queries log in MySQL|mysql|logs|logging|
+  1. First, check if you already have the two tables slow_log and general_log
+  existing in the MySQL database.
+  If not, you have to create them, note that you have to create in the MySQL
+  database. To create the general_log table:
+------------------------------------------------------------------------------
+  CREATE TABLE `general_log` (
+   `event_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+                          ON UPDATE CURRENT_TIMESTAMP,
+   `user_host` mediumtext NOT NULL,
+   `thread_id` bigint(21) unsigned NOT NULL,
+   `server_id` int(10) unsigned NOT NULL,
+   `command_type` varchar(64) NOT NULL,
+   `argument` mediumtext NOT NULL
+  ) ENGINE=CSV DEFAULT CHARSET=utf8 COMMENT='General log'
+-------------------------------------------------------------------------------
+  The general query log is a general record of what mysqld is doing. The server
+  writes information to this log when clients connect or disconnect, and it logs
+  each SQL statement received from clients. The general query log can be very
+  useful when you suspect an error in a client and want to know exactly what the
+  client sent to mysqld. And the slow_log table:
+--------------------------------------------------------------------------------
+  CREATE TABLE `slow_log` (
+   `start_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+                          ON UPDATE CURRENT_TIMESTAMP,
+   `user_host` mediumtext NOT NULL,
+   `query_time` time NOT NULL,
+   `lock_time` time NOT NULL,
+   `rows_sent` int(11) NOT NULL,
+   `rows_examined` int(11) NOT NULL,
+   `db` varchar(512) NOT NULL,
+   `last_insert_id` int(11) NOT NULL,
+   `insert_id` int(11) NOT NULL,
+   `server_id` int(10) unsigned NOT NULL,
+   `sql_text` mediumtext NOT NULL,
+   `thread_id` bigint(21) unsigned NOT NULL
+  ) ENGINE=CSV DEFAULT CHARSET=utf8 COMMENT='Slow log'
+----------------------------------------------------------------------------------
+The slow query log consists of SQL statements that take more than long_query_time
+seconds to execute and require at leastmin_examined_row_limit rows to be examined.
+The slow query log can be used to find queries that take a long time to execute
+ and are therefore candidates for optimization.
+The minimum and default values of long_query_time are 0 and 10, respectively.
+The value can be specified to a resolution of microseconds.
+2. Enable Query logging on the database:
+-----------------------------------------------------------------------------------
+SET global general_log = 1;
+SET global log_output = 'table';
+-----------------------------------------------------------------------------------
+3. Now you can view the log by running this query:
+-----------------------------------------------------------------------------------
+SELECT
+    *
+FROM
+    mysql.general_log;
+----------------------------------------------------------------------------------|2021-01-24 17:59:10
+49|See rowid's in a no id table|rowid|id|sqlite|SELECT rowid,* FROM test;|2021-01-24 18:20:44
+50|Erro "There 9 values but only 8"|error|mismatch|sqlite|"
+ If a error pops up that says that you have more
+ values than columns, check that the table
+ <name of your table>.fts_content, is not repeating
+ the id value in the c0 column.
+ If it is, delete your fts table and your triggers,
+ and use this command:
+ --------------------------------------------------
+ sqlite-utils enable-fts --fts5 --create-triggers \
+ <path/to/db> <table_name> <list of columns to use>
+ --------------------------------------------------
+ "|2021-01-24 21:12:05
+51|Enabling Full Text Search Through SQL-utils|fulltext|sqlite utils|full text|"
+ To enable full-text in a new table do this:
+ ------------------------------------------------
+ sql-utils enable-fts <table name> <column list>
+ ------------------------------------------------
+ https://bit.ly/3qNboQz
+ "|2021-01-24 23:08:38
+53|Projetos|hobbies|hobby|lazer|"
+  Para não me esquecer, vou por aqui, os projectos de coisas que
+  acho interessante, e depois não as faço porque nunca mais me
+  lembro delas.
+  ---------------------------------------------------------------
+  1 - Livro 'Data Science in the Command Line':
+  This book is about doing data science at the command line.
+  Our aim is to make you a more efficient and productive
+  data scientist by teaching you how to leverage the power of
+  the command line.
+  https://bit.ly/3sHiub0
+  --------------------------------------------------------------
+  2 - 'Let's Build a Simple Interpreter':
+  If you don’t know how compilers work, then you don’t know
+  how computers work. If you’re not 100% sure whether you
+  know how compilers work, then you don’t know how they work.
+  https://ruslanspivak.com/lsbasi-part1/
+  --------------------------------------------------------------
+  3 - Instalar Papis:
+ 'Papis is a command-line based document and
+  bibliography manager. Its command-line interface (CLI)
+  is heavily tailored after Git.'
+  https://papis.readthedocs.io/en/latest/index.html
+  --------------------------------------------------------------
+  4 - Criar um blog self-hosted para por os meus musings sobre
+  linux, o que estou a fazer em termos de projectos ...
+  Pode ser uma coisa com piada.
+  --------------------------------------------------------------
+  5 - Estudar o SQLAlchemy
+  https://www.sqlalchemy.org/
+  --------------------------------------------------------------
+  "|CURRENT_TIMESTAMP
+54|Rebuilding fts with sqlite-utils|sqlite-utils|fts|virtual tables|
+ To rebuild your fts service, do this in the console:
+ ------------------------------------------------------  
+ sqlite-utils rebuild-fts <path/to/db> <fts_table_name>
+ -------------------------------------------------------
+ Mais informação ver:
+ -------------------------------------------------------
+ sqlite-utils rebuild-fts --help
+ -------------------------------------------------------|CURRENT_TIMESTAMP
+55|Show Triggers in Sqlite-utils|sqlite-utils|triggers|trigger|
+"""
+ To see configured triggers in the database:
+ -----------------------------------------------
+ sqlite-utils -t <path/to/db> <table_name>
+ -----------------------------------------------
+ More information through:
+ -----------------------------------------------
+ sqlite.utils triggers --help
+ ----------------------------------------------- """|2021-01-25 03:23:12
+56|What to do if MySQL outupts 'no default values'|mysql|default|error|
+ """
+ If you get an error saying that are missing default
+ values, input this line in a mysql session:
+ ----------------------------------------------------
+ SET GLOBAL sql_mode = 'ONLY_FULL_GROUP_BY';
+ ----------------------------------------------------
+ """|2021-01-26 03:38:18
+57|Import a csv file to MySQL|mysql|csv|import|
+ """
+ LOAD DATA INFILE '/var/lib/mysql/<name_of_file>'
+ INTO TABLE <table_name>
+ FIELDS TERMINATED BY '<character that is used to
+ separate the input fields>
+ ENCLOSED BY '<If the strings are enclosed by any
+ symbol, ' or ", indicate that here>
+ LINES TERMINATED BY '\n'
+ """|2021-01-26 18:47:19
+58|Setting Up a Nginx Server|nginx|web server|apache|"
+   I'm trying out the Nginx web server instead of Apache because
+   I've been hearing a lot about how much easier it is to
+   configure, and that it's faster etc, etc. I can now say with
+   authority, that is not easier to configure, it's harder, but
+   it's a good harder, because makes you have more control about
+   what you're setting up. So, I'll leave here the server block
+   (Nginx version of Virtual Hosts), I made in 28/01/21, for a
+   a blog called 'Dazed and Confused':
+   ------------------------------------------------------------
+   server {
+          # Notice that, unlike Apache, you can't have the same
+          # port for IPV4 and IPV6. So you'll have to comment it
+          # out.
+          listen 443 ssl;
+          # listen [::]: 443 ssl;
+  
+          root /var/www/constantconstipation.club/html/public/;
+          # Nginx serves what is described in the index files it
+          # finds on the pages. 
+          index index.html index.htm index.nginx-debian.html;
+  
+          server_name constantconstipation.club www.constantconstipation.club;
+  
+          location / {
+                  try_files $uri $uri/ =404;
+          }
+          # Nginx wasn't finding the blog folder content, nor it's
+          # css structure. So I inserted the 'try_files', and it
+          # worked. The line's meaning is this:
+          # 'Checks the existence of files in the specified order
+          # and uses the first found file for request processing;
+          # the processing is performed in the current context.
+          # [...]
+          # If none of the files were found, an internal redirect
+          # to the uri specified in the last parameter is made.'
+          location /blogs/ {
+                  try_files $uri $uri/ =404;
+          }
+  
+          # This is what is requested for ssl connection. Mind you,
+          # this configuration is being used because, I already had
+          # the certbot certificate and needed to change it from an
+          # Apache server to Nginx. Probably if you download a
+          # certbot version for Nginx, it will do all this
+          # configuration for you. But if it doesn't, you can
+          # copy/paste from the third row onward and it will run.
+          # NOTE: in the last field, 'XSS-Protection', I had to change
+          # the double quotes that were to apostrophes, or mysql would
+          # respond with an error. If you have any problems, just put
+          # double quotes in it.
+          ssl_certificate     /etc/letsencrypt/live/constantconstipation.club/fullchain.pem;
+          ssl_certificate_key /etc/letsencrypt/live/constantconstipation.club/privkey.pem;
+          ssl_protocols TLSv1.2;
+          ssl_prefer_server_ciphers on;
+          ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
+          ssl_ecdh_curve secp384r1; # Requires nginx >= 1.1.0
+          ssl_session_timeout  10m;
+          ssl_session_cache shared:SSL:10m;
+          ssl_session_tickets off; # Requires nginx >= 1.5.9
+          ssl_stapling on; # Requires nginx >= 1.3.7
+          ssl_stapling_verify on; # Requires nginx => 1.3.7
+          resolver 8.8.8.8 8.8.4.4 valid=300s;
+          resolver_timeout 5s;
+          add_header X-Frame-Options DENY;
+          add_header X-Content-Type-Options nosniff;
+          add_header X-XSS-Protection '1; mode=block';
+   }
+   -----------------------------------------------------------------
+   The whole process: https://do.co/3t7zmIr
+   "|2021-01-28 15:59:06
+59|Creating a range of variables with numbers on them|numbered variables|range|variables with numbers|
+ """
+ For creating a range of variables with numbers, (something
+ like this: 'var0', or 'var_0') you do the following:
+ ----------------------------------------------------------
+ for key in range(9):
+    globals()['key_{}'.format(key)] = 'a'
+ ----------------------------------------------------------
+ This will produce a set of variables, name thusly, 'key_0,
+ 'key_1' and so on, that will all have the value 'a'. But
+ that can be easily changed.
+ https://bit.ly/3oBeANz
+ """|2021-01-30 04:36:22
+60|Dictionary Comprehensions|comprehensions|dictionary|dictionaries| 
+ """
+ Dictionary comprehension is a method for transforming one dictionary
+ into another dictionary. During this transformation, items within
+ the original dictionary can be conditionally included in the new
+ dictionary and each item can be transformed as needed. This is the
+ general template you can follow for dictionary comprehension in
+ Python:
+ --------------------------------------------------------------------
+ dict_variable = {key:value for (key,value) in dictonary.items()}
+ --------------------------------------------------------------------
+ a simple dictionary comprehension:
+ --------------------------------------------------------------------
+ dict1 = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+ # Double each value in the dictionary
+ double_dict1 = {k:v*2 for (k,v) in dict1.items()}
+ print(double_dict1)
+ {'e': 10, 'a': 2, 'c': 6, 'b': 4, 'd': 8}
+ --------------------------------------------------------------------
+ https://bit.ly/2Ysf4ev
+ """|2021-01-30 05:37:33
+61|Create a ordered dictionary|ordered dictionary|dictionary|ordered|
+ """
+ We can create ordered dictionary using OrderedDict
+ function in collections.
+ ---------------------------------------------------
+ ordered_d = collections.OrderedDict(one=1, two=2)
+ ---------------------------------------------------
+ or if you want a empty dictionary:
+ ---------------------------------------------------
+ ordered_d = collections.OrderedDict()
+ """|2021-01-30 05:56:49
+62|Python Remove Character from String using translate()|remove|string|characters| 
+ """
+ Python string translate() function replace each character in the string
+ using the given translation table. We have to specify the Unicode code
+ point for the character and ‘None’ as a replacement to remove it from
+ the result string. We can use ord() function to get the Unicode code
+ point of a character.
+ -------------------------------------------------------------------------
+ s = 'abc12321cba'
+ print(s.translate({ord('a'): None}))
+ Output: bc12321cb
+ -------------------------------------------------------------------------
+ If you want to replace multiple characters, that can be done easily using
+ an iterator. Let’s see how to remove characters ‘a’, ‘b’ and ‘c’ from a
+ string.
+ --------------------------------------------------------------------------
+ s = 'abc12321cba'
+ print(s.translate({ord(i): None for i in 'abc'}))
+ Output: 12321
+ ---------------------------------------------------------------------------
+ https://bit.ly/2MEM4xi
+ """|2021-01-30 08:44:27
+63|Python String Manipulation|strings|string|python| 
+ """
+ Here are some string manipulation that proved useful.
+ Split method:
+ ------------------------------------------------------
+ s = "Username: How are you today?"
+  s.split(':')
+  ['Username', ' How are you today?']
+  s.split(':')[0]
+  'Username'
+  https://bit.ly/3pC2uFi
+  -----------------------------------------------------
+  Python String upper():
+  -----------------------------------------------------
+  text = 'geeKs For geEkS'
+  print(text.upper())
+  GEEKS FOR GEEKS
+  https://bit.ly/3coDs8R
+  -----------------------------------------------------
+  How to get the part of a string before a specific
+  character in Python:
+  -----------------------------------------------------
+  a_string = "docs.python.org"
+  partitioned_string = a_string.partition('.')
+  print(partitioned_string)
+  Output: ('docs', '.', 'python.org')
+  before_first_period = partitioned_string[0]
+  print(before_first_period)
+  Output: docs
+  https://bit.ly/3oBMBgS
+  -----------------------------------------------------
+  Several methods to remove characters from a string,
+  can be seen here: https://bit.ly/2MEM4xi
+  """|2021-01-30 13:04:17
+64|How to return dictionary keys as a list in Python?|dictionary|dictionaries|list| 
+ """
+ Try list(newdict.keys()).
+ This will convert the dict_keys object to a list.
+ -------------------------------------------------
+ for key in newdict.keys():
+  print(key)
+  https://bit.ly/3j2w4Bw
+  -------------------------------------------------
+  """|2021-01-30 13:08:46
+65|Replacing nth ocurrence of a substring in string|string|replace|strings|
+ """
+ ---------------------------------------------------------------------------
+ def nth_repl(s, sub, repl, n):
+    find = s.find(sub)
+    # If find is not -1 we have found at least one match for the substring
+    i = find != -1
+    # loop util we find the nth or we find no match
+    while find != -1 and i != n:
+        # find + 1 means we start searching from after the last match
+        find = s.find(sub, find + 1)
+        i += 1
+    # If i is equal to n we found nth match so replace
+    if i == n:
+        return s[:find] + repl + s[find+len(sub):]
+    return s
+
+
+ s = str(results)
+ s1 = nth_repl(s, ',', '', 1) # Replaces 1st ocurrence of a comma
+ s2 = nth_repl(s1, ',', '', 2)
+ s3 = nth_repl(s2, ',', '', 3)
+  https://bit.ly/3r3NrEO
+ --------------------------------------------------------------------------
+ """|2021-01-30 18:56:21
+66|Skipping every other element after the first|string|skip|strings|
+ """
+ ------------------------------
+ for i in range(0, len(a), 2):
+    #do something
+ https://bit.ly/3cmjImx
+ -------------------------------
+ """|2021-01-30 18:58:54
+67|Getting items in a dictionary|dictionary|item|dictionaries|"
+ ---------------------
+ a = {..., ...,..,...}
+ for i in a:
+    (i, a[i])
+ ----------------------
+ "|2021-01-31 17:53:21
+68|How to remove every other value from list|list|skip|remove|
+ """
+ To remove every other entry in a list,
+ do the following:
+ --------------------------------------
+ <new_list> = <old_list>[1::2]
+ --------------------------------------
+ """|2021-02-01 02:07:46
+69|Replace muitple indices in a string|string|replace|remove|
+ """
+ To replace various indices in a string,
+ do the following:
+ ----------------------------------------
+ test_str = 'geeksforgeeks is best'
+ indices = [2, 4, 7, 10]
+ repl_char = '*'   # replacement_character
+ temp = list(test_str)
+ for idx in indices:
+    temp[idx] = repl_char
+ res = ''.join(temp)
+ print(res)
+ Output: 'ge*k*fo*ge*ks is best'
+ -----------------------------------------
+ """|2021-02-01 02:13:47
+70|Remove beep from computer|beep|bell|remove| 
+ """
+ Needed to remove beep from the backtrace
+ key.
+ To remove the beeps that system pc does,
+ do the folowing: go to /etc/inputrc and
+ write:
+ ---------------------------------------
+ set bell-style none
+ ---------------------------------------
+ """|2021-02-01 04:19:39
+71|Add line numbers to output|logs|line numbers|number|
+    """
+    To number output of apps or logs,
+    you can use the nl linux app:
+    ---------------------------------
+    sudo journalctl | less | nl
+    ---------------------------------
+    Or simply, for use with less:
+    ---------------------------------
+    sudo journalctl | -N less
+    ---------------------------------
+    """|2021-02-10 15:47:57
+72|Execute Shell Commands in Remote Servers With Python|fabric|remote|ssh|
+ """
+ Fabric is a high level Python library designed to execute
+ shell commands remotely over SSH.
+ Example taken from a script written to alter folder
+ permissions when updating content on the hugo blog server:
+ -----------------------------------------------------------
+ from fabric import Connection
+ c = Connection(
+     host = 'constantconstipation.club',
+     user = 'root',
+     connect_kwargs={
+         'key_filename': '/home/mic/.ssh/id_rsa'
+     }
+ )
+ c.run('cd /var/www/constantconstipation.club/html/ &&
+ chown -R www-data:www-data public')
+ -----------------------------------------------------------
+ http://www.fabfile.org/
+ """|2021-02-11 16:29:18
+73|Adding git project to remote server|notabug|git|upload|
+ """
+ 1 - Create a new repository, if needed,
+ 2 - Change the current working directory
+     to your local project.
+ 3 - Initialize the local directory as a
+     Git repository:
+ ----------------------------------------
+ git init -b main
+ ----------------------------------------
+ 4 - Adds the files in the local
+     repository and stages them for
+     commit. To unstage a file, use 'git
+     reset HEAD YOUR-FILE':
+ -----------------------------------------
+ git add .
+ -----------------------------------------
+ 5 - Commit the files that you've staged
+     in your local repository.
+ -----------------------------------------
+ git commit -m "First commit"
+ -----------------------------------------
+ 6 - copy the remote repository URL.
+ 7 - add the URL for the remote repository
+     where your local repository will be
+     pushed:
+ ------------------------------------------
+ git remote add origin  <REMOTE_URL>
+ ------------------------------------------
+ 8 - Push the changes in your local
+     repository to remote repository:
+ ------------------------------------------
+ git push origin main
+ ------------------------------------------
+ https://bit.ly/3rBK9ce
+ """|2021-02-11 18:06:35
+74|Cmus Cheat-sheet|cmus|player|music|"
+  Here are some cmus commands:
+  ------------------------------
+  1 - Library
+  3 - Playlist
+  4 - Queue
+  5 - File browser
+  7 - Settings
+  a - next line down
+  b - next track
+  z - previous track
+  c - pause/unpause
+  s - shuffle
+  y - add selection to playlist
+  v - stop
+  -  decrease volume
+  + - increase volume
+  4 - View/edit queue
+  -----------------------------
+  "|2021-02-12 00:28:57

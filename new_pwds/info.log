@@ -1,0 +1,202 @@
+2021-08-22T23:42:11.664749+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120256), thread 'MainThread' (139830854297408):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 159, in <module>
+    complex()
+    └ <function complex at 0x7f2ce76f1c10>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 149, in complex
+    add = random.sample(alpha, info.length)
+          │      │      │      │    └ '23'
+          │      │      │      └ <function info at 0x7f2ce76eaf70>
+          │      │      └ ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H',...
+          │      └ <bound method Random.sample of <random.Random object at 0x55a64e4f5930>>
+          └ <module 'random' from '/usr/lib/python3.9/random.py'>
+
+  File "/usr/lib/python3.9/random.py", line 448, in sample
+    if not 0 <= k <= n:
+                │    └ 89
+                └ '23'
+
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2021-08-22T23:42:11.672321+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120256), thread 'MainThread' (139830854297408):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 181, in <module>
+    updt_database()
+    └ <function updt_database at 0x7f2ce76f1f70>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 169, in updt_database
+    answers = [info.service, info.username, complex.passwd]
+               │    │        │    │         └ <function complex at 0x7f2ce76f1c10>
+               │    │        │    └ 'micaldas@mailfence.com'
+               │    │        └ <function info at 0x7f2ce76eaf70>
+               │    └ 'Reddit'
+               └ <function info at 0x7f2ce76eaf70>
+
+AttributeError: 'function' object has no attribute 'passwd'
+2021-08-22T23:49:01.610945+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120462), thread 'MainThread' (139870902396736):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 159, in <module>
+    complex()
+    └ <function complex at 0x7f363a7cab80>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 149, in complex
+    add = random.sample(alpha, str(info.length))
+          │      │      │          │    └ '10'
+          │      │      │          └ <function info at 0x7f363a7c3ee0>
+          │      │      └ ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H',...
+          │      └ <bound method Random.sample of <random.Random object at 0x55c9e58a4930>>
+          └ <module 'random' from '/usr/lib/python3.9/random.py'>
+
+  File "/usr/lib/python3.9/random.py", line 448, in sample
+    if not 0 <= k <= n:
+                │    └ 89
+                └ '10'
+
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2021-08-22T23:49:01.618570+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120462), thread 'MainThread' (139870902396736):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 181, in <module>
+    updt_database()
+    └ <function updt_database at 0x7f363a7caee0>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 169, in updt_database
+    answers = [info.service, info.username, complex.passwd]
+               │    │        │    │         └ <function complex at 0x7f363a7cab80>
+               │    │        │    └ 'micaldas@mailfence.com'
+               │    │        └ <function info at 0x7f363a7c3ee0>
+               │    └ 'reddit'
+               └ <function info at 0x7f363a7c3ee0>
+
+AttributeError: 'function' object has no attribute 'passwd'
+2021-08-22T23:50:13.688991+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120501), thread 'MainThread' (139805653567296):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 159, in <module>
+    complex()
+    └ <function complex at 0x7f27095a8b80>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 149, in complex
+    add = random.sample(alpha, str(info.length))
+          │      │      │          │    └ '12'
+          │      │      │          └ <function info at 0x7f27095a0ee0>
+          │      │      └ ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H',...
+          │      └ <bound method Random.sample of <random.Random object at 0x55569c8ab930>>
+          └ <module 'random' from '/usr/lib/python3.9/random.py'>
+
+  File "/usr/lib/python3.9/random.py", line 448, in sample
+    if not 0 <= k <= n:
+                │    └ 89
+                └ '12'
+
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2021-08-22T23:50:13.696581+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120501), thread 'MainThread' (139805653567296):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 181, in <module>
+    updt_database()
+    └ <function updt_database at 0x7f27095a8ee0>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 169, in updt_database
+    answers = [info.service, info.username, complex.passwd]
+               │    │        │    │         └ <function complex at 0x7f27095a8b80>
+               │    │        │    └ 'micaldas@mailfence.com'
+               │    │        └ <function info at 0x7f27095a0ee0>
+               │    └ 'reddit'
+               └ <function info at 0x7f27095a0ee0>
+
+AttributeError: 'function' object has no attribute 'passwd'
+2021-08-23T00:00:24.670214+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120899), thread 'MainThread' (140479368566592):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 158, in <module>
+    complex()
+    └ <function complex at 0x7fc3e5e59b80>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 148, in complex
+    add = random.sample(alpha, "20")
+          │      │      └ ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H',...
+          │      └ <bound method Random.sample of <random.Random object at 0x55b22315b930>>
+          └ <module 'random' from '/usr/lib/python3.9/random.py'>
+
+  File "/usr/lib/python3.9/random.py", line 448, in sample
+    if not 0 <= k <= n:
+                │    └ 89
+                └ '20'
+
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2021-08-23T00:00:24.677609+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (120899), thread 'MainThread' (140479368566592):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 180, in <module>
+    updt_database()
+    └ <function updt_database at 0x7fc3e5e59ee0>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 168, in updt_database
+    answers = [info.service, info.username, complex.passwd]
+               │    │        │    │         └ <function complex at 0x7fc3e5e59b80>
+               │    │        │    └ 'micaldas@mailfence.com'
+               │    │        └ <function info at 0x7fc3e5e52ee0>
+               │    └ 'reddit'
+               └ <function info at 0x7fc3e5e52ee0>
+
+AttributeError: 'function' object has no attribute 'passwd'
+2021-08-23T00:32:13.434003+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (121915), thread 'MainThread' (139944828450624):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 168, in <module>
+    complex()
+    └ <function complex at 0x7f4770d3fb80>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 160, in complex
+    info.user_pwd == complex.passwd
+    │    │           └ <function complex at 0x7f4770d3fb80>
+    │    └ 'xxxx'
+    └ <function info at 0x7f4770d24e50>
+
+AttributeError: 'function' object has no attribute 'passwd'
+2021-08-23T00:32:13.441090+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (121915), thread 'MainThread' (139944828450624):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 190, in <module>
+    updt_database()
+    └ <function updt_database at 0x7f4770d3fee0>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 178, in updt_database
+    answers = [info.service, info.username, info.string, complex.passwd]
+               │    │        │    │         │    │       └ <function complex at 0x7f4770d3fb80>
+               │    │        │    │         │    └ 'Since strings are sequences of characters, you might expect them to also check for'
+               │    │        │    │         └ <function info at 0x7f4770d24e50>
+               │    │        │    └ 'micaldas@mailfence.com'
+               │    │        └ <function info at 0x7f4770d24e50>
+               │    └ 'gogs'
+               └ <function info at 0x7f4770d24e50>
+
+AttributeError: 'function' object has no attribute 'passwd'
+2021-08-23T00:47:28.670863+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (122420), thread 'MainThread' (139726262122304):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 189, in <module>
+    updt_database()
+    └ <function updt_database at 0x7f148d422ee0>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 174, in updt_database
+    if info.user_pwd is not None:
+       └ <function info at 0x7f148d40ce50>
+
+AttributeError: 'function' object has no attribute 'user_pwd'
+2021-08-23T00:52:22.338018+0100 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (122582), thread 'MainThread' (140525290760000):
+Traceback (most recent call last):
+
+> File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 189, in <module>
+    updt_database()
+    └ <function updt_database at 0x7fce97138e50>
+
+  File "/home/mic/python/old_alternative_projects/new_pwds/hash_pwds.py", line 174, in updt_database
+    if info.user_pwd != " ":
+       └ <function info at 0x7fce97123e50>
+
+AttributeError: 'function' object has no attribute 'user_pwd'

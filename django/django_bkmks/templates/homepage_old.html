@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for bookmark in object_list %}
+<p class="text-blue-900"><a href="{{ bookmark.link }}" class="utb utb-OLR">{{ bookmark.title }}:&nbsp;</a>{{ bookmark.comment }}</p>
+<div class="space"></div>
+{% endfor %}
+{% endblock content %}
+

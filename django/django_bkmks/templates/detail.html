@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+<link href="{% static 'index.css' %}" type="text/css" rel="stylesheet"/>
+{% block content %}
+<div class="h-40"></div>
+<h1 class="headline-1 uppercase text-red-600" style="text-align:center;"> <b>{{ object.title }}</b><span class="desc"></span></h1>
+<div class="space large"></div>
+<div class="space large"></div>
+<h1 class="headline-4 uppercase" style="text-align:center;"> <b>{{ object.comment }}</b><span class="desc"></span></h1>
+{% endblock content %}
+

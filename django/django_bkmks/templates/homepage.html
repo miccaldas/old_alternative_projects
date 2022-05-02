@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for object in object_list %}
+<a href="{{ object.link }}" target="_blank"><h1 class="headline-1 uppercase text-red-600" style="text-align:center;"><b>{{ object.title }}</b><span class="desc"></span></h1></a>
+<div class="space large"></div>
+<div class="space large"></div>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,576 @@
+2021-10-26T22:13:20.284634+0100 - __main__ - INFO - Sci-Hub.html
+2021-10-26T22:13:20.284775+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sci-Hub.md -oSci-Hub.html
+2021-10-26T22:13:20.564235+0100 - __main__ - INFO - Regex101.html
+2021-10-26T22:13:20.564964+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Regex101.md -oRegex101.html
+2021-10-26T22:13:20.714757+0100 - __main__ - INFO - Automated_Clonezilla_BackupRestore.html
+2021-10-26T22:13:20.715074+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Automated_Clonezilla_BackupRestore.md -oAutomated_Clonezilla_BackupRestore.html
+2021-10-26T22:13:21.100630+0100 - __main__ - INFO - ASCII_Generator.html
+2021-10-26T22:13:21.101406+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s ASCII_Generator.md -oASCII_Generator.html
+2021-10-26T22:13:21.242480+0100 - __main__ - INFO - Snap_Store.html
+2021-10-26T22:13:21.242754+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Snap_Store.md -oSnap_Store.html
+2021-10-26T22:13:21.362313+0100 - __main__ - INFO - Learn_You_a_Haskell_for_Great_Good!.html
+2021-10-26T22:13:21.362600+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Learn_You_a_Haskell_for_Great_Good!.md -oLearn_You_a_Haskell_for_Great_Good!.html
+2021-10-26T22:13:21.480224+0100 - __main__ - INFO - Arrow.html
+2021-10-26T22:13:21.480549+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Arrow.md -oArrow.html
+2021-10-26T22:13:21.599805+0100 - __main__ - INFO - Artvee.html
+2021-10-26T22:13:21.600089+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Artvee.md -oArtvee.html
+2021-10-26T22:13:21.721774+0100 - __main__ - INFO - Free_Frontend.html
+2021-10-26T22:13:21.722073+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Free_Frontend.md -oFree_Frontend.html
+2021-10-26T22:13:21.839621+0100 - __main__ - INFO - Flake8.html
+2021-10-26T22:13:21.839913+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Flake8.md -oFlake8.html
+2021-10-26T22:13:21.958456+0100 - __main__ - INFO - Fselect.html
+2021-10-26T22:13:21.958740+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Fselect.md -oFselect.html
+2021-10-26T22:13:22.079561+0100 - __main__ - INFO - Use_Traceroute_and_MTR.html
+2021-10-26T22:13:22.079872+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Use_Traceroute_and_MTR.md -oUse_Traceroute_and_MTR.html
+2021-10-26T22:13:22.200279+0100 - __main__ - INFO - Clipmenu.html
+2021-10-26T22:13:22.200546+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Clipmenu.md -oClipmenu.html
+2021-10-26T22:13:22.317809+0100 - __main__ - INFO - Change_Colors_of_PNG_Files.html
+2021-10-26T22:13:22.318092+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Change_Colors_of_PNG_Files.md -oChange_Colors_of_PNG_Files.html
+2021-10-26T22:13:22.437279+0100 - __main__ - INFO - Loop.html
+2021-10-26T22:13:22.437573+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Loop.md -oLoop.html
+2021-10-26T22:13:22.555814+0100 - __main__ - INFO - SHML.html
+2021-10-26T22:13:22.556126+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s SHML.md -oSHML.html
+2021-10-26T22:13:22.675292+0100 - __main__ - INFO - See_Icons_in_Font.html
+2021-10-26T22:13:22.675613+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s See_Icons_in_Font.md -oSee_Icons_in_Font.html
+2021-10-26T22:13:22.796394+0100 - __main__ - INFO - Pysnooper.html
+2021-10-26T22:13:22.796681+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Pysnooper.md -oPysnooper.html
+2021-10-26T22:13:22.915787+0100 - __main__ - INFO - Logo-ls.html
+2021-10-26T22:13:22.916111+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Logo-ls.md -oLogo-ls.html
+2021-10-26T22:13:23.034708+0100 - __main__ - INFO - 50_Sed_Commands.html
+2021-10-26T22:13:23.034981+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s 50_Sed_Commands.md -o50_Sed_Commands.html
+2021-10-26T22:13:23.157008+0100 - __main__ - INFO - Loop_through_file_in_Bash.html
+2021-10-26T22:13:23.157482+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Loop_through_file_in_Bash.md -oLoop_through_file_in_Bash.html
+2021-10-26T22:13:23.279474+0100 - __main__ - INFO - Sed_Cheatsheet.html
+2021-10-26T22:13:23.279748+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sed_Cheatsheet.md -oSed_Cheatsheet.html
+2021-10-26T22:13:23.399411+0100 - __main__ - INFO - Short_URL.html
+2021-10-26T22:13:23.399693+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Short_URL.md -oShort_URL.html
+2021-10-26T22:13:23.521394+0100 - __main__ - INFO - Boxes.html
+2021-10-26T22:13:23.521665+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Boxes.md -oBoxes.html
+2021-10-26T22:13:23.645737+0100 - __main__ - INFO - Cli_Helpers.html
+2021-10-26T22:13:23.646202+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Cli_Helpers.md -oCli_Helpers.html
+2021-10-26T22:13:23.776695+0100 - __main__ - INFO - Clonezilla_documentation.html
+2021-10-26T22:13:23.777024+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Clonezilla_documentation.md -oClonezilla_documentation.html
+2021-10-26T22:13:23.899020+0100 - __main__ - INFO - Good_Python_SQLite3_Tutorial.html
+2021-10-26T22:13:23.899312+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Good_Python_SQLite3_Tutorial.md -oGood_Python_SQLite3_Tutorial.html
+2021-10-26T22:13:24.019159+0100 - __main__ - INFO - Mycli,_Mysql_in_Terminal.html
+2021-10-26T22:13:24.019426+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Mycli,_Mysql_in_Terminal.md -oMycli,_Mysql_in_Terminal.html
+2021-10-26T22:13:24.144421+0100 - __main__ - INFO - Creating_FULLTEXT_Indexes_for_Full-Text_Search.html
+2021-10-26T22:13:24.144893+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Creating_FULLTEXT_Indexes_for_Full-Text_Search.md -oCreating_FULLTEXT_Indexes_for_Full-Text_Search.html
+2021-10-26T22:13:24.276059+0100 - __main__ - INFO - On_Scroll_Header.html
+2021-10-26T22:13:24.276334+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s On_Scroll_Header.md -oOn_Scroll_Header.html
+2021-10-26T22:13:24.393390+0100 - __main__ - INFO - Import_Python_Files_From_Another_Directory.html
+2021-10-26T22:13:24.393844+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Import_Python_Files_From_Another_Directory.md -oImport_Python_Files_From_Another_Directory.html
+2021-10-26T22:13:24.512385+0100 - __main__ - INFO - Questionnaire.html
+2021-10-26T22:13:24.512824+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Questionnaire.md -oQuestionnaire.html
+2021-10-26T22:13:24.634037+0100 - __main__ - INFO - Python_Projects.html
+2021-10-26T22:13:24.634524+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Python_Projects.md -oPython_Projects.html
+2021-10-26T22:13:24.756909+0100 - __main__ - INFO - LocalTunnel.html
+2021-10-26T22:13:24.757201+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s LocalTunnel.md -oLocalTunnel.html
+2021-10-26T22:13:24.876283+0100 - __main__ - INFO - See_glyphs_in_font.html
+2021-10-26T22:13:24.876594+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s See_glyphs_in_font.md -oSee_glyphs_in_font.html
+2021-10-26T22:13:24.999490+0100 - __main__ - INFO - Python_Like_You_mean_It.html
+2021-10-26T22:13:24.999799+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Python_Like_You_mean_It.md -oPython_Like_You_mean_It.html
+2021-10-26T22:13:25.118838+0100 - __main__ - INFO - How_to_fetch_data_from_Database_in_PHP_PDO_.html
+2021-10-26T22:13:25.119107+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_fetch_data_from_Database_in_PHP_PDO_.md -oHow_to_fetch_data_from_Database_in_PHP_PDO_.html
+2021-10-26T22:13:25.236672+0100 - __main__ - INFO - List_of_typographical_symbols_and_punctuation_marks.html
+2021-10-26T22:13:25.236981+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s List_of_typographical_symbols_and_punctuation_marks.md -oList_of_typographical_symbols_and_punctuation_marks.html
+2021-10-26T22:13:25.359031+0100 - __main__ - INFO - How_To_Use_Rsync_to_Sync_Local_and_Remote_Directories.html
+2021-10-26T22:13:25.359307+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_To_Use_Rsync_to_Sync_Local_and_Remote_Directories.md -oHow_To_Use_Rsync_to_Sync_Local_and_Remote_Directories.html
+2021-10-26T22:13:25.474849+0100 - __main__ - INFO - Zettelkasten_Method.html
+2021-10-26T22:13:25.475142+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Zettelkasten_Method.md -oZettelkasten_Method.html
+2021-10-26T22:13:25.592751+0100 - __main__ - INFO - CliFlix.html
+2021-10-26T22:13:25.593200+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s CliFlix.md -oCliFlix.html
+2021-10-26T22:13:25.716436+0100 - __main__ - INFO - Selenium.html
+2021-10-26T22:13:25.716736+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Selenium.md -oSelenium.html
+2021-10-26T22:13:25.835053+0100 - __main__ - INFO - Ricepedia.html
+2021-10-26T22:13:25.835378+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Ricepedia.md -oRicepedia.html
+2021-10-26T22:13:25.957724+0100 - __main__ - INFO - Navi.html
+2021-10-26T22:13:25.958142+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Navi.md -oNavi.html
+2021-10-26T22:13:26.078450+0100 - __main__ - INFO - Deezer.html
+2021-10-26T22:13:26.078755+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Deezer.md -oDeezer.html
+2021-10-26T22:13:26.186268+0100 - __main__ - INFO - Vim_PHP_Code_Sniffer.html
+2021-10-26T22:13:26.186584+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Vim_PHP_Code_Sniffer.md -oVim_PHP_Code_Sniffer.html
+2021-10-26T22:13:26.303270+0100 - __main__ - INFO - Transformer.html
+2021-10-26T22:13:26.303556+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Transformer.md -oTransformer.html
+2021-10-26T22:13:26.421155+0100 - __main__ - INFO - Marker.html
+2021-10-26T22:13:26.421472+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Marker.md -oMarker.html
+2021-10-26T22:13:26.541003+0100 - __main__ - INFO - Bat.html
+2021-10-26T22:13:26.541316+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Bat.md -oBat.html
+2021-10-26T22:13:26.662869+0100 - __main__ - INFO - Black.html
+2021-10-26T22:13:26.663164+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Black.md -oBlack.html
+2021-10-26T22:13:26.782103+0100 - __main__ - INFO - Code_Beautify.html
+2021-10-26T22:13:26.782408+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Code_Beautify.md -oCode_Beautify.html
+2021-10-26T22:13:26.906356+0100 - __main__ - INFO - Keybindings_in_ZSH.html
+2021-10-26T22:13:26.906817+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Keybindings_in_ZSH.md -oKeybindings_in_ZSH.html
+2021-10-26T22:13:27.034151+0100 - __main__ - INFO - Library_Genesis.html
+2021-10-26T22:13:27.034446+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Library_Genesis.md -oLibrary_Genesis.html
+2021-10-26T22:13:27.156696+0100 - __main__ - INFO - FuzzyWuzzy_Tutorial.html
+2021-10-26T22:13:27.157039+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s FuzzyWuzzy_Tutorial.md -oFuzzyWuzzy_Tutorial.html
+2021-10-26T22:13:27.275721+0100 - __main__ - INFO - Regular_Expressions_Tutorial.html
+2021-10-26T22:13:27.276008+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Regular_Expressions_Tutorial.md -oRegular_Expressions_Tutorial.html
+2021-10-26T22:13:27.395275+0100 - __main__ - INFO - XML_Parsing.html
+2021-10-26T22:13:27.395593+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s XML_Parsing.md -oXML_Parsing.html
+2021-10-26T22:13:27.516132+0100 - __main__ - INFO - Sultan_a_simpler_subprocess.html
+2021-10-26T22:13:27.516408+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sultan_a_simpler_subprocess.md -oSultan_a_simpler_subprocess.html
+2021-10-26T22:13:27.637205+0100 - __main__ - INFO - Git_platform_where_I_keep_my_stuff.html
+2021-10-26T22:13:27.637476+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Git_platform_where_I_keep_my_stuff.md -oGit_platform_where_I_keep_my_stuff.html
+2021-10-26T22:13:27.757242+0100 - __main__ - INFO - Router_MEO.html
+2021-10-26T22:13:27.757516+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Router_MEO.md -oRouter_MEO.html
+2021-10-26T22:13:27.873887+0100 - __main__ - INFO - How2.html
+2021-10-26T22:13:27.874221+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How2.md -oHow2.html
+2021-10-26T22:13:27.993059+0100 - __main__ - INFO - Ripgrep.html
+2021-10-26T22:13:27.993331+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Ripgrep.md -oRipgrep.html
+2021-10-26T22:13:28.112796+0100 - __main__ - INFO - Normalization_Techniques_in_Python_Using_NumPy.html
+2021-10-26T22:13:28.113286+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Normalization_Techniques_in_Python_Using_NumPy.md -oNormalization_Techniques_in_Python_Using_NumPy.html
+2021-10-26T22:13:28.233670+0100 - __main__ - INFO - Mailx_Cheat_Sheet.html
+2021-10-26T22:13:28.234104+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Mailx_Cheat_Sheet.md -oMailx_Cheat_Sheet.html
+2021-10-26T22:13:28.354652+0100 - __main__ - INFO - SQLAlchemy_Tutorial.html
+2021-10-26T22:13:28.355092+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s SQLAlchemy_Tutorial.md -oSQLAlchemy_Tutorial.html
+2021-10-26T22:13:28.478875+0100 - __main__ - INFO - Dive_Into_Deep_Learning.html
+2021-10-26T22:13:28.479289+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Dive_Into_Deep_Learning.md -oDive_Into_Deep_Learning.html
+2021-10-26T22:13:28.611527+0100 - __main__ - INFO - Add_search_to_Hugo_static_sites_with_Lunr.html
+2021-10-26T22:13:28.612018+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Add_search_to_Hugo_static_sites_with_Lunr.md -oAdd_search_to_Hugo_static_sites_with_Lunr.html
+2021-10-26T22:13:28.731212+0100 - __main__ - INFO - Pytermgui.html
+2021-10-26T22:13:28.731651+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Pytermgui.md -oPytermgui.html
+2021-10-26T22:13:28.851287+0100 - __main__ - INFO - O_meu_ficheiro_no_Colab.html
+2021-10-26T22:13:28.851772+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s O_meu_ficheiro_no_Colab.md -oO_meu_ficheiro_no_Colab.html
+2021-10-26T22:13:28.969368+0100 - __main__ - INFO - ManyBooks.html
+2021-10-26T22:13:28.969822+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s ManyBooks.md -oManyBooks.html
+2021-10-26T22:13:29.079901+0100 - __main__ - INFO - Password_for_Web_Directories.html
+2021-10-26T22:13:29.080175+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Password_for_Web_Directories.md -oPassword_for_Web_Directories.html
+2021-10-26T22:13:29.200317+0100 - __main__ - INFO - awesome-awesomeness.html
+2021-10-26T22:13:29.200614+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s awesome-awesomeness.md -oawesome-awesomeness.html
+2021-10-26T22:13:29.320243+0100 - __main__ - INFO - Numpy_Quick_Start.html
+2021-10-26T22:13:29.320566+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Numpy_Quick_Start.md -oNumpy_Quick_Start.html
+2021-10-26T22:13:29.439352+0100 - __main__ - INFO - A_brief_introduction_to_GPG_.html
+2021-10-26T22:13:29.439622+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s A_brief_introduction_to_GPG_.md -oA_brief_introduction_to_GPG_.html
+2021-10-26T22:13:29.559081+0100 - __main__ - INFO - Bitly_URL_Shortener.html
+2021-10-26T22:13:29.559357+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Bitly_URL_Shortener.md -oBitly_URL_Shortener.html
+2021-10-26T22:13:29.679318+0100 - __main__ - INFO - Create_MySQl's__Full_Text_Indexes.html
+2021-10-26T22:13:29.679599+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Create_MySQl's__Full_Text_Indexes.md -oCreate_MySQl's__Full_Text_Indexes.html
+2021-10-26T22:13:29.789735+0100 - __main__ - INFO - Machine_Learning_from_Scratch.html
+2021-10-26T22:13:29.790017+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Machine_Learning_from_Scratch.md -oMachine_Learning_from_Scratch.html
+2021-10-26T22:13:29.910231+0100 - __main__ - INFO - Fire.html
+2021-10-26T22:13:29.910720+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Fire.md -oFire.html
+2021-10-26T22:13:30.035589+0100 - __main__ - INFO - Creating_Vim_templates.html
+2021-10-26T22:13:30.036051+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Creating_Vim_templates.md -oCreating_Vim_templates.html
+2021-10-26T22:13:30.157107+0100 - __main__ - INFO - Icecream_Python_Debugging_Tool.html
+2021-10-26T22:13:30.157379+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Icecream_Python_Debugging_Tool.md -oIcecream_Python_Debugging_Tool.html
+2021-10-26T22:13:30.276536+0100 - __main__ - INFO - Urwid.html
+2021-10-26T22:13:30.276965+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Urwid.md -oUrwid.html
+2021-10-26T22:13:30.396575+0100 - __main__ - INFO - SQLite_Tutorial.html
+2021-10-26T22:13:30.396947+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s SQLite_Tutorial.md -oSQLite_Tutorial.html
+2021-10-26T22:13:30.517075+0100 - __main__ - INFO - CSS_Frameworks_List.html
+2021-10-26T22:13:30.517423+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s CSS_Frameworks_List.md -oCSS_Frameworks_List.html
+2021-10-26T22:13:30.637120+0100 - __main__ - INFO - codementor.html
+2021-10-26T22:13:30.637432+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s codementor.md -ocodementor.html
+2021-10-26T22:13:30.758216+0100 - __main__ - INFO - Requests.html
+2021-10-26T22:13:30.758505+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Requests.md -oRequests.html
+2021-10-26T22:13:30.876940+0100 - __main__ - INFO - How_to_install_Gitea.html
+2021-10-26T22:13:30.877224+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_install_Gitea.md -oHow_to_install_Gitea.html
+2021-10-26T22:13:31.003841+0100 - __main__ - INFO - Project_Learn.html
+2021-10-26T22:13:31.004254+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Project_Learn.md -oProject_Learn.html
+2021-10-26T22:13:31.134770+0100 - __main__ - INFO - Trending_vim_color_schemes.html
+2021-10-26T22:13:31.135157+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Trending_vim_color_schemes.md -oTrending_vim_color_schemes.html
+2021-10-26T22:13:31.254325+0100 - __main__ - INFO - Numpy_Exercises_Python.html
+2021-10-26T22:13:31.254758+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Numpy_Exercises_Python.md -oNumpy_Exercises_Python.html
+2021-10-26T22:13:31.377946+0100 - __main__ - INFO - Lighttpd_Documentation.html
+2021-10-26T22:13:31.378241+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Lighttpd_Documentation.md -oLighttpd_Documentation.html
+2021-10-26T22:13:31.495559+0100 - __main__ - INFO - HTML_to_Markdown_Converter.html
+2021-10-26T22:13:31.495836+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s HTML_to_Markdown_Converter.md -oHTML_to_Markdown_Converter.html
+2021-10-26T22:13:31.616958+0100 - __main__ - INFO - warning:_remote_HEAD_refers_to_nonexistent_ref.html
+2021-10-26T22:13:31.617272+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s warning:_remote_HEAD_refers_to_nonexistent_ref.md -owarning:_remote_HEAD_refers_to_nonexistent_ref.html
+2021-10-26T22:13:31.735488+0100 - __main__ - INFO - Markdown_Cheatsheet.html
+2021-10-26T22:13:31.735783+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Markdown_Cheatsheet.md -oMarkdown_Cheatsheet.html
+2021-10-26T22:13:31.857666+0100 - __main__ - INFO - All_selectors.html
+2021-10-26T22:13:31.857951+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s All_selectors.md -oAll_selectors.html
+2021-10-26T22:13:31.977683+0100 - __main__ - INFO - Orator.html
+2021-10-26T22:13:31.978001+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Orator.md -oOrator.html
+2021-10-26T22:13:32.101162+0100 - __main__ - INFO - sathadhy.html
+2021-10-26T22:13:32.101655+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s sathadhy.md -osathadhy.html
+2021-10-26T22:13:32.227887+0100 - __main__ - INFO - Crontab_Guru.html
+2021-10-26T22:13:32.228163+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Crontab_Guru.md -oCrontab_Guru.html
+2021-10-26T22:13:32.347173+0100 - __main__ - INFO - EverSQL.html
+2021-10-26T22:13:32.347468+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s EverSQL.md -oEverSQL.html
+2021-10-26T22:13:32.468193+0100 - __main__ - INFO - pycrumbs.html
+2021-10-26T22:13:32.468475+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s pycrumbs.md -opycrumbs.html
+2021-10-26T22:13:32.588428+0100 - __main__ - INFO - Sass.html
+2021-10-26T22:13:32.588766+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sass.md -oSass.html
+2021-10-26T22:13:32.709034+0100 - __main__ - INFO - Using_Scrapy_for_Python.html
+2021-10-26T22:13:32.709483+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Using_Scrapy_for_Python.md -oUsing_Scrapy_for_Python.html
+2021-10-26T22:13:32.828432+0100 - __main__ - INFO - Intro_to_Machine_Learning.html
+2021-10-26T22:13:32.828707+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Intro_to_Machine_Learning.md -oIntro_to_Machine_Learning.html
+2021-10-26T22:13:32.946023+0100 - __main__ - INFO - add-gitignore.html
+2021-10-26T22:13:32.946295+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s add-gitignore.md -oadd-gitignore.html
+2021-10-26T22:13:33.063239+0100 - __main__ - INFO - 256_Colors_Cheat_Sheet.html
+2021-10-26T22:13:33.063551+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s 256_Colors_Cheat_Sheet.md -o256_Colors_Cheat_Sheet.html
+2021-10-26T22:13:33.180322+0100 - __main__ - INFO - Resize_Images.html
+2021-10-26T22:13:33.180612+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Resize_Images.md -oResize_Images.html
+2021-10-26T22:13:33.306153+0100 - __main__ - INFO - Sed_Documentation.html
+2021-10-26T22:13:33.306639+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sed_Documentation.md -oSed_Documentation.html
+2021-10-26T22:13:33.427901+0100 - __main__ - INFO - Visualize_Python_Code.html
+2021-10-26T22:13:33.428175+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Visualize_Python_Code.md -oVisualize_Python_Code.html
+2021-10-26T22:13:33.545972+0100 - __main__ - INFO - Sqlitebiter.html
+2021-10-26T22:13:33.546256+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sqlitebiter.md -oSqlitebiter.html
+2021-10-26T22:13:33.665199+0100 - __main__ - INFO - Easy_Incremental_Backups_With_Tar.html
+2021-10-26T22:13:33.665473+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Easy_Incremental_Backups_With_Tar.md -oEasy_Incremental_Backups_With_Tar.html
+2021-10-26T22:13:33.784081+0100 - __main__ - INFO - Python_Data_Science_Handbook_Online.html
+2021-10-26T22:13:33.784357+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Python_Data_Science_Handbook_Online.md -oPython_Data_Science_Handbook_Online.html
+2021-10-26T22:13:33.901303+0100 - __main__ - INFO - Flask_Now.html
+2021-10-26T22:13:33.901629+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Flask_Now.md -oFlask_Now.html
+2021-10-26T22:13:34.020780+0100 - __main__ - INFO - FuzzyWuzzy.html
+2021-10-26T22:13:34.021069+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s FuzzyWuzzy.md -oFuzzyWuzzy.html
+2021-10-26T22:13:34.142067+0100 - __main__ - INFO - ButterBlog.html
+2021-10-26T22:13:34.142384+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s ButterBlog.md -oButterBlog.html
+2021-10-26T22:13:34.258248+0100 - __main__ - INFO - Google_Style_Guide.html
+2021-10-26T22:13:34.258538+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Google_Style_Guide.md -oGoogle_Style_Guide.html
+2021-10-26T22:13:34.377734+0100 - __main__ - INFO - AutoExpect.html
+2021-10-26T22:13:34.378010+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s AutoExpect.md -oAutoExpect.html
+2021-10-26T22:13:34.497802+0100 - __main__ - INFO - How_to_style_a_radio_buttons_form.html
+2021-10-26T22:13:34.498075+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_style_a_radio_buttons_form.md -oHow_to_style_a_radio_buttons_form.html
+2021-10-26T22:13:34.616509+0100 - __main__ - INFO - Append_Current_Date_To_Filename_in_Bash_Shell.html
+2021-10-26T22:13:34.616782+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Append_Current_Date_To_Filename_in_Bash_Shell.md -oAppend_Current_Date_To_Filename_in_Bash_Shell.html
+2021-10-26T22:13:34.736789+0100 - __main__ - INFO - Zlibrary.html
+2021-10-26T22:13:34.737252+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Zlibrary.md -oZlibrary.html
+2021-10-26T22:13:34.846746+0100 - __main__ - INFO - One_Liners_for_Sed.html
+2021-10-26T22:13:34.847023+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s One_Liners_for_Sed.md -oOne_Liners_for_Sed.html
+2021-10-26T22:13:34.966689+0100 - __main__ - INFO - How_to_create_a_Mail_server_with_SSLTLS_on_Linux.html
+2021-10-26T22:13:34.967015+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_create_a_Mail_server_with_SSLTLS_on_Linux.md -oHow_to_create_a_Mail_server_with_SSLTLS_on_Linux.html
+2021-10-26T22:13:35.088682+0100 - __main__ - INFO - PHP-CS_FIXER.html
+2021-10-26T22:13:35.088959+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s PHP-CS_FIXER.md -oPHP-CS_FIXER.html
+2021-10-26T22:13:35.205719+0100 - __main__ - INFO - Find_and_Replace_Text_in_Vim.html
+2021-10-26T22:13:35.206048+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Find_and_Replace_Text_in_Vim.md -oFind_and_Replace_Text_in_Vim.html
+2021-10-26T22:13:35.325942+0100 - __main__ - INFO - Grep,_Awk_and_Sed.html
+2021-10-26T22:13:35.326226+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Grep,_Awk_and_Sed.md -oGrep,_Awk_and_Sed.html
+2021-10-26T22:13:35.445067+0100 - __main__ - INFO - txt2html.html
+2021-10-26T22:13:35.445382+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s txt2html.md -otxt2html.html
+2021-10-26T22:13:35.561345+0100 - __main__ - INFO - hr.html
+2021-10-26T22:13:35.561627+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s hr.md -ohr.html
+2021-10-26T22:13:35.683297+0100 - __main__ - INFO - Serve_PHP_with_PHP-FPM_and_NGINX.html
+2021-10-26T22:13:35.683620+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Serve_PHP_with_PHP-FPM_and_NGINX.md -oServe_PHP_with_PHP-FPM_and_NGINX.html
+2021-10-26T22:13:35.801447+0100 - __main__ - INFO - List_of_Project_Based_Python_Lessons.html
+2021-10-26T22:13:35.801719+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s List_of_Project_Based_Python_Lessons.md -oList_of_Project_Based_Python_Lessons.html
+2021-10-26T22:13:35.920410+0100 - __main__ - INFO - Bookcut.html
+2021-10-26T22:13:35.920676+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Bookcut.md -oBookcut.html
+2021-10-26T22:13:36.038125+0100 - __main__ - INFO - Ls-colors.html
+2021-10-26T22:13:36.038425+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Ls-colors.md -oLs-colors.html
+2021-10-26T22:13:36.158821+0100 - __main__ - INFO - Questionary.html
+2021-10-26T22:13:36.159145+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Questionary.md -oQuestionary.html
+2021-10-26T22:13:36.276158+0100 - __main__ - INFO - Spell_Check_in_Vim.html
+2021-10-26T22:13:36.276692+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Spell_Check_in_Vim.md -oSpell_Check_in_Vim.html
+2021-10-26T22:13:36.395294+0100 - __main__ - INFO - Deploy_Ruby_App_in_Linux_Server.html
+2021-10-26T22:13:36.395596+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Deploy_Ruby_App_in_Linux_Server.md -oDeploy_Ruby_App_in_Linux_Server.html
+2021-10-26T22:13:36.515199+0100 - __main__ - INFO - Visidata.html
+2021-10-26T22:13:36.515512+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Visidata.md -oVisidata.html
+2021-10-26T22:13:36.635743+0100 - __main__ - INFO - Getting_Started_With_Nginx.html
+2021-10-26T22:13:36.636010+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Getting_Started_With_Nginx.md -oGetting_Started_With_Nginx.html
+2021-10-26T22:13:36.754334+0100 - __main__ - INFO - Special_HTML_characters_and_codes.html
+2021-10-26T22:13:36.754617+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Special_HTML_characters_and_codes.md -oSpecial_HTML_characters_and_codes.html
+2021-10-26T22:13:36.875024+0100 - __main__ - INFO - k.html
+2021-10-26T22:13:36.875296+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s k.md -ok.html
+2021-10-26T22:13:36.998346+0100 - __main__ - INFO - How_to_configure_Backblaze_B2_with_Duplicity_on_Linux.html
+2021-10-26T22:13:36.998943+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_configure_Backblaze_B2_with_Duplicity_on_Linux.md -oHow_to_configure_Backblaze_B2_with_Duplicity_on_Linux.html
+2021-10-26T22:13:37.130624+0100 - __main__ - INFO - Git_Documentation.html
+2021-10-26T22:13:37.131089+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Git_Documentation.md -oGit_Documentation.html
+2021-10-26T22:13:37.247854+0100 - __main__ - INFO - Vertically_center_an_element_in_CSS.html
+2021-10-26T22:13:37.248168+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Vertically_center_an_element_in_CSS.md -oVertically_center_an_element_in_CSS.html
+2021-10-26T22:13:37.367680+0100 - __main__ - INFO - Cherrypy.html
+2021-10-26T22:13:37.367952+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Cherrypy.md -oCherrypy.html
+2021-10-26T22:13:37.486050+0100 - __main__ - INFO - Rich.html
+2021-10-26T22:13:37.486366+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Rich.md -oRich.html
+2021-10-26T22:13:37.603103+0100 - __main__ - INFO - Scrapy.html
+2021-10-26T22:13:37.603375+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Scrapy.md -oScrapy.html
+2021-10-26T22:13:37.707897+0100 - __main__ - INFO - What_characters_to_escape_in_Sed.html
+2021-10-26T22:13:37.708169+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s What_characters_to_escape_in_Sed.md -oWhat_characters_to_escape_in_Sed.html
+2021-10-26T22:13:37.826189+0100 - __main__ - INFO - Tresorit_Cli.html
+2021-10-26T22:13:37.826460+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Tresorit_Cli.md -oTresorit_Cli.html
+2021-10-26T22:13:37.946377+0100 - __main__ - INFO - Trepan_Python_Debugger.html
+2021-10-26T22:13:37.946653+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Trepan_Python_Debugger.md -oTrepan_Python_Debugger.html
+2021-10-27T11:55:50.205365+0100 - __main__ - INFO - Sci-Hub.html
+2021-10-27T11:55:50.205504+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sci-Hub.md -oSci-Hub.html
+2021-10-27T11:55:50.311840+0100 - __main__ - INFO - Regex101.html
+2021-10-27T11:55:50.312180+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Regex101.md -oRegex101.html
+2021-10-27T11:55:50.430789+0100 - __main__ - INFO - Automated_Clonezilla_BackupRestore.html
+2021-10-27T11:55:50.431251+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Automated_Clonezilla_BackupRestore.md -oAutomated_Clonezilla_BackupRestore.html
+2021-10-27T11:55:50.553810+0100 - __main__ - INFO - ASCII_Generator.html
+2021-10-27T11:55:50.554097+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s ASCII_Generator.md -oASCII_Generator.html
+2021-10-27T11:55:50.673623+0100 - __main__ - INFO - Snap_Store.html
+2021-10-27T11:55:50.674117+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Snap_Store.md -oSnap_Store.html
+2021-10-27T11:55:50.793435+0100 - __main__ - INFO - Learn_You_a_Haskell_for_Great_Good!.html
+2021-10-27T11:55:50.793900+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Learn_You_a_Haskell_for_Great_Good!.md -oLearn_You_a_Haskell_for_Great_Good!.html
+2021-10-27T11:55:50.909530+0100 - __main__ - INFO - Arrow.html
+2021-10-27T11:55:50.909824+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Arrow.md -oArrow.html
+2021-10-27T11:55:51.027120+0100 - __main__ - INFO - Artvee.html
+2021-10-27T11:55:51.027604+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Artvee.md -oArtvee.html
+2021-10-27T11:55:51.147071+0100 - __main__ - INFO - Free_Frontend.html
+2021-10-27T11:55:51.147607+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Free_Frontend.md -oFree_Frontend.html
+2021-10-27T11:55:51.263910+0100 - __main__ - INFO - Flake8.html
+2021-10-27T11:55:51.264213+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Flake8.md -oFlake8.html
+2021-10-27T11:55:51.383863+0100 - __main__ - INFO - Fselect.html
+2021-10-27T11:55:51.384178+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Fselect.md -oFselect.html
+2021-10-27T11:55:51.503680+0100 - __main__ - INFO - Use_Traceroute_and_MTR.html
+2021-10-27T11:55:51.503956+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Use_Traceroute_and_MTR.md -oUse_Traceroute_and_MTR.html
+2021-10-27T11:55:51.625721+0100 - __main__ - INFO - Clipmenu.html
+2021-10-27T11:55:51.625991+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Clipmenu.md -oClipmenu.html
+2021-10-27T11:55:51.742090+0100 - __main__ - INFO - Change_Colors_of_PNG_Files.html
+2021-10-27T11:55:51.742365+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Change_Colors_of_PNG_Files.md -oChange_Colors_of_PNG_Files.html
+2021-10-27T11:55:51.860647+0100 - __main__ - INFO - Loop.html
+2021-10-27T11:55:51.860925+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Loop.md -oLoop.html
+2021-10-27T11:55:51.969041+0100 - __main__ - INFO - SHML.html
+2021-10-27T11:55:51.969316+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s SHML.md -oSHML.html
+2021-10-27T11:55:52.095786+0100 - __main__ - INFO - See_Icons_in_Font.html
+2021-10-27T11:55:52.096352+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s See_Icons_in_Font.md -oSee_Icons_in_Font.html
+2021-10-27T11:55:52.239449+0100 - __main__ - INFO - Pysnooper.html
+2021-10-27T11:55:52.239733+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Pysnooper.md -oPysnooper.html
+2021-10-27T11:55:52.361110+0100 - __main__ - INFO - Logo-ls.html
+2021-10-27T11:55:52.361416+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Logo-ls.md -oLogo-ls.html
+2021-10-27T11:55:52.483537+0100 - __main__ - INFO - 50_Sed_Commands.html
+2021-10-27T11:55:52.483804+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s 50_Sed_Commands.md -o50_Sed_Commands.html
+2021-10-27T11:55:52.606011+0100 - __main__ - INFO - Loop_through_file_in_Bash.html
+2021-10-27T11:55:52.606291+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Loop_through_file_in_Bash.md -oLoop_through_file_in_Bash.html
+2021-10-27T11:55:52.726471+0100 - __main__ - INFO - Sed_Cheatsheet.html
+2021-10-27T11:55:52.726823+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sed_Cheatsheet.md -oSed_Cheatsheet.html
+2021-10-27T11:55:52.843569+0100 - __main__ - INFO - Short_URL.html
+2021-10-27T11:55:52.843830+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Short_URL.md -oShort_URL.html
+2021-10-27T11:55:52.962665+0100 - __main__ - INFO - Boxes.html
+2021-10-27T11:55:52.962936+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Boxes.md -oBoxes.html
+2021-10-27T11:55:53.079580+0100 - __main__ - INFO - Cli_Helpers.html
+2021-10-27T11:55:53.079886+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Cli_Helpers.md -oCli_Helpers.html
+2021-10-27T11:55:53.204599+0100 - __main__ - INFO - Clonezilla_documentation.html
+2021-10-27T11:55:53.205031+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Clonezilla_documentation.md -oClonezilla_documentation.html
+2021-10-27T11:55:53.333917+0100 - __main__ - INFO - Good_Python_SQLite3_Tutorial.html
+2021-10-27T11:55:53.334426+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Good_Python_SQLite3_Tutorial.md -oGood_Python_SQLite3_Tutorial.html
+2021-10-27T11:55:53.452983+0100 - __main__ - INFO - Mycli,_Mysql_in_Terminal.html
+2021-10-27T11:55:53.453249+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Mycli,_Mysql_in_Terminal.md -oMycli,_Mysql_in_Terminal.html
+2021-10-27T11:55:53.576002+0100 - __main__ - INFO - Creating_FULLTEXT_Indexes_for_Full-Text_Search.html
+2021-10-27T11:55:53.576411+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Creating_FULLTEXT_Indexes_for_Full-Text_Search.md -oCreating_FULLTEXT_Indexes_for_Full-Text_Search.html
+2021-10-27T11:55:53.707229+0100 - __main__ - INFO - On_Scroll_Header.html
+2021-10-27T11:55:53.707647+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s On_Scroll_Header.md -oOn_Scroll_Header.html
+2021-10-27T11:55:53.830016+0100 - __main__ - INFO - Import_Python_Files_From_Another_Directory.html
+2021-10-27T11:55:53.830500+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Import_Python_Files_From_Another_Directory.md -oImport_Python_Files_From_Another_Directory.html
+2021-10-27T11:55:53.950560+0100 - __main__ - INFO - Questionnaire.html
+2021-10-27T11:55:53.950822+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Questionnaire.md -oQuestionnaire.html
+2021-10-27T11:55:54.073527+0100 - __main__ - INFO - Python_Projects.html
+2021-10-27T11:55:54.073956+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Python_Projects.md -oPython_Projects.html
+2021-10-27T11:55:54.191308+0100 - __main__ - INFO - LocalTunnel.html
+2021-10-27T11:55:54.191728+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s LocalTunnel.md -oLocalTunnel.html
+2021-10-27T11:55:54.309111+0100 - __main__ - INFO - See_glyphs_in_font.html
+2021-10-27T11:55:54.309527+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s See_glyphs_in_font.md -oSee_glyphs_in_font.html
+2021-10-27T11:55:54.426802+0100 - __main__ - INFO - Python_Like_You_mean_It.html
+2021-10-27T11:55:54.427079+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Python_Like_You_mean_It.md -oPython_Like_You_mean_It.html
+2021-10-27T11:55:54.545993+0100 - __main__ - INFO - How_to_fetch_data_from_Database_in_PHP_PDO_.html
+2021-10-27T11:55:54.546263+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_fetch_data_from_Database_in_PHP_PDO_.md -oHow_to_fetch_data_from_Database_in_PHP_PDO_.html
+2021-10-27T11:55:54.663812+0100 - __main__ - INFO - List_of_typographical_symbols_and_punctuation_marks.html
+2021-10-27T11:55:54.664085+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s List_of_typographical_symbols_and_punctuation_marks.md -oList_of_typographical_symbols_and_punctuation_marks.html
+2021-10-27T11:55:54.780835+0100 - __main__ - INFO - How_To_Use_Rsync_to_Sync_Local_and_Remote_Directories.html
+2021-10-27T11:55:54.781114+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_To_Use_Rsync_to_Sync_Local_and_Remote_Directories.md -oHow_To_Use_Rsync_to_Sync_Local_and_Remote_Directories.html
+2021-10-27T11:55:54.898703+0100 - __main__ - INFO - Zettelkasten_Method.html
+2021-10-27T11:55:54.898977+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Zettelkasten_Method.md -oZettelkasten_Method.html
+2021-10-27T11:55:55.015406+0100 - __main__ - INFO - CliFlix.html
+2021-10-27T11:55:55.015727+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s CliFlix.md -oCliFlix.html
+2021-10-27T11:55:55.138170+0100 - __main__ - INFO - Selenium.html
+2021-10-27T11:55:55.138447+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Selenium.md -oSelenium.html
+2021-10-27T11:55:55.257044+0100 - __main__ - INFO - Ricepedia.html
+2021-10-27T11:55:55.257355+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Ricepedia.md -oRicepedia.html
+2021-10-27T11:55:55.372126+0100 - __main__ - INFO - Navi.html
+2021-10-27T11:55:55.372403+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Navi.md -oNavi.html
+2021-10-27T11:55:55.494098+0100 - __main__ - INFO - Deezer.html
+2021-10-27T11:55:55.494553+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Deezer.md -oDeezer.html
+2021-10-27T11:55:55.605794+0100 - __main__ - INFO - Vim_PHP_Code_Sniffer.html
+2021-10-27T11:55:55.606059+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Vim_PHP_Code_Sniffer.md -oVim_PHP_Code_Sniffer.html
+2021-10-27T11:55:55.724627+0100 - __main__ - INFO - Transformer.html
+2021-10-27T11:55:55.724896+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Transformer.md -oTransformer.html
+2021-10-27T11:55:55.842062+0100 - __main__ - INFO - Marker.html
+2021-10-27T11:55:55.842362+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Marker.md -oMarker.html
+2021-10-27T11:55:55.960400+0100 - __main__ - INFO - Bat.html
+2021-10-27T11:55:55.960708+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Bat.md -oBat.html
+2021-10-27T11:55:56.079986+0100 - __main__ - INFO - Black.html
+2021-10-27T11:55:56.080258+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Black.md -oBlack.html
+2021-10-27T11:55:56.196504+0100 - __main__ - INFO - Code_Beautify.html
+2021-10-27T11:55:56.196785+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Code_Beautify.md -oCode_Beautify.html
+2021-10-27T11:55:56.319036+0100 - __main__ - INFO - Keybindings_in_ZSH.html
+2021-10-27T11:55:56.319494+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Keybindings_in_ZSH.md -oKeybindings_in_ZSH.html
+2021-10-27T11:55:56.439330+0100 - __main__ - INFO - Library_Genesis.html
+2021-10-27T11:55:56.439599+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Library_Genesis.md -oLibrary_Genesis.html
+2021-10-27T11:55:56.548518+0100 - __main__ - INFO - FuzzyWuzzy_Tutorial.html
+2021-10-27T11:55:56.548830+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s FuzzyWuzzy_Tutorial.md -oFuzzyWuzzy_Tutorial.html
+2021-10-27T11:55:56.672380+0100 - __main__ - INFO - Regular_Expressions_Tutorial.html
+2021-10-27T11:55:56.672653+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Regular_Expressions_Tutorial.md -oRegular_Expressions_Tutorial.html
+2021-10-27T11:55:56.791776+0100 - __main__ - INFO - XML_Parsing.html
+2021-10-27T11:55:56.792056+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s XML_Parsing.md -oXML_Parsing.html
+2021-10-27T11:55:56.913215+0100 - __main__ - INFO - Sultan_a_simpler_subprocess.html
+2021-10-27T11:55:56.913502+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sultan_a_simpler_subprocess.md -oSultan_a_simpler_subprocess.html
+2021-10-27T11:55:57.031208+0100 - __main__ - INFO - Git_platform_where_I_keep_my_stuff.html
+2021-10-27T11:55:57.031481+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Git_platform_where_I_keep_my_stuff.md -oGit_platform_where_I_keep_my_stuff.html
+2021-10-27T11:55:57.155015+0100 - __main__ - INFO - Router_MEO.html
+2021-10-27T11:55:57.155433+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Router_MEO.md -oRouter_MEO.html
+2021-10-27T11:55:57.274797+0100 - __main__ - INFO - How2.html
+2021-10-27T11:55:57.275065+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How2.md -oHow2.html
+2021-10-27T11:55:57.393253+0100 - __main__ - INFO - Ripgrep.html
+2021-10-27T11:55:57.393527+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Ripgrep.md -oRipgrep.html
+2021-10-27T11:55:57.500723+0100 - __main__ - INFO - Normalization_Techniques_in_Python_Using_NumPy.html
+2021-10-27T11:55:57.501006+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Normalization_Techniques_in_Python_Using_NumPy.md -oNormalization_Techniques_in_Python_Using_NumPy.html
+2021-10-27T11:55:57.619091+0100 - __main__ - INFO - Mailx_Cheat_Sheet.html
+2021-10-27T11:55:57.619365+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Mailx_Cheat_Sheet.md -oMailx_Cheat_Sheet.html
+2021-10-27T11:55:57.737710+0100 - __main__ - INFO - SQLAlchemy_Tutorial.html
+2021-10-27T11:55:57.737999+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s SQLAlchemy_Tutorial.md -oSQLAlchemy_Tutorial.html
+2021-10-27T11:55:57.857953+0100 - __main__ - INFO - Dive_Into_Deep_Learning.html
+2021-10-27T11:55:57.858242+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Dive_Into_Deep_Learning.md -oDive_Into_Deep_Learning.html
+2021-10-27T11:55:57.979969+0100 - __main__ - INFO - Add_search_to_Hugo_static_sites_with_Lunr.html
+2021-10-27T11:55:57.980376+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Add_search_to_Hugo_static_sites_with_Lunr.md -oAdd_search_to_Hugo_static_sites_with_Lunr.html
+2021-10-27T11:55:58.110141+0100 - __main__ - INFO - Pytermgui.html
+2021-10-27T11:55:58.110561+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Pytermgui.md -oPytermgui.html
+2021-10-27T11:55:58.227757+0100 - __main__ - INFO - O_meu_ficheiro_no_Colab.html
+2021-10-27T11:55:58.228036+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s O_meu_ficheiro_no_Colab.md -oO_meu_ficheiro_no_Colab.html
+2021-10-27T11:55:58.348167+0100 - __main__ - INFO - ManyBooks.html
+2021-10-27T11:55:58.348520+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s ManyBooks.md -oManyBooks.html
+2021-10-27T11:55:58.466001+0100 - __main__ - INFO - Password_for_Web_Directories.html
+2021-10-27T11:55:58.466271+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Password_for_Web_Directories.md -oPassword_for_Web_Directories.html
+2021-10-27T11:55:58.587628+0100 - __main__ - INFO - awesome-awesomeness.html
+2021-10-27T11:55:58.587945+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s awesome-awesomeness.md -oawesome-awesomeness.html
+2021-10-27T11:55:58.705582+0100 - __main__ - INFO - Numpy_Quick_Start.html
+2021-10-27T11:55:58.705856+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Numpy_Quick_Start.md -oNumpy_Quick_Start.html
+2021-10-27T11:55:58.826937+0100 - __main__ - INFO - A_brief_introduction_to_GPG_.html
+2021-10-27T11:55:58.827205+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s A_brief_introduction_to_GPG_.md -oA_brief_introduction_to_GPG_.html
+2021-10-27T11:55:58.946013+0100 - __main__ - INFO - Bitly_URL_Shortener.html
+2021-10-27T11:55:58.946298+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Bitly_URL_Shortener.md -oBitly_URL_Shortener.html
+2021-10-27T11:55:59.070766+0100 - __main__ - INFO - Create_MySQl's__Full_Text_Indexes.html
+2021-10-27T11:55:59.071360+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Create_MySQl's__Full_Text_Indexes.md -oCreate_MySQl's__Full_Text_Indexes.html
+2021-10-27T11:55:59.200367+0100 - __main__ - INFO - Machine_Learning_from_Scratch.html
+2021-10-27T11:55:59.200668+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Machine_Learning_from_Scratch.md -oMachine_Learning_from_Scratch.html
+2021-10-27T11:55:59.318842+0100 - __main__ - INFO - Fire.html
+2021-10-27T11:55:59.319119+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Fire.md -oFire.html
+2021-10-27T11:55:59.437927+0100 - __main__ - INFO - Creating_Vim_templates.html
+2021-10-27T11:55:59.438193+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Creating_Vim_templates.md -oCreating_Vim_templates.html
+2021-10-27T11:55:59.556203+0100 - __main__ - INFO - Icecream_Python_Debugging_Tool.html
+2021-10-27T11:55:59.556471+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Icecream_Python_Debugging_Tool.md -oIcecream_Python_Debugging_Tool.html
+2021-10-27T11:55:59.679866+0100 - __main__ - INFO - Urwid.html
+2021-10-27T11:55:59.680250+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Urwid.md -oUrwid.html
+2021-10-27T11:55:59.804756+0100 - __main__ - INFO - SQLite_Tutorial.html
+2021-10-27T11:55:59.805025+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s SQLite_Tutorial.md -oSQLite_Tutorial.html
+2021-10-27T11:55:59.931383+0100 - __main__ - INFO - CSS_Frameworks_List.html
+2021-10-27T11:55:59.931767+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s CSS_Frameworks_List.md -oCSS_Frameworks_List.html
+2021-10-27T11:56:00.054765+0100 - __main__ - INFO - codementor.html
+2021-10-27T11:56:00.055200+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s codementor.md -ocodementor.html
+2021-10-27T11:56:00.175951+0100 - __main__ - INFO - Requests.html
+2021-10-27T11:56:00.176365+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Requests.md -oRequests.html
+2021-10-27T11:56:00.301801+0100 - __main__ - INFO - How_to_install_Gitea.html
+2021-10-27T11:56:00.302177+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_install_Gitea.md -oHow_to_install_Gitea.html
+2021-10-27T11:56:00.428093+0100 - __main__ - INFO - Project_Learn.html
+2021-10-27T11:56:00.428565+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Project_Learn.md -oProject_Learn.html
+2021-10-27T11:56:00.550934+0100 - __main__ - INFO - Trending_vim_color_schemes.html
+2021-10-27T11:56:00.551254+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Trending_vim_color_schemes.md -oTrending_vim_color_schemes.html
+2021-10-27T11:56:00.670549+0100 - __main__ - INFO - Numpy_Exercises_Python.html
+2021-10-27T11:56:00.671011+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Numpy_Exercises_Python.md -oNumpy_Exercises_Python.html
+2021-10-27T11:56:00.789658+0100 - __main__ - INFO - Lighttpd_Documentation.html
+2021-10-27T11:56:00.790076+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Lighttpd_Documentation.md -oLighttpd_Documentation.html
+2021-10-27T11:56:00.910057+0100 - __main__ - INFO - HTML_to_Markdown_Converter.html
+2021-10-27T11:56:00.910479+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s HTML_to_Markdown_Converter.md -oHTML_to_Markdown_Converter.html
+2021-10-27T11:56:01.028906+0100 - __main__ - INFO - warning:_remote_HEAD_refers_to_nonexistent_ref.html
+2021-10-27T11:56:01.029351+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s warning:_remote_HEAD_refers_to_nonexistent_ref.md -owarning:_remote_HEAD_refers_to_nonexistent_ref.html
+2021-10-27T11:56:01.145085+0100 - __main__ - INFO - Markdown_Cheatsheet.html
+2021-10-27T11:56:01.145371+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Markdown_Cheatsheet.md -oMarkdown_Cheatsheet.html
+2021-10-27T11:56:01.262095+0100 - __main__ - INFO - All_selectors.html
+2021-10-27T11:56:01.262376+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s All_selectors.md -oAll_selectors.html
+2021-10-27T11:56:01.382026+0100 - __main__ - INFO - Orator.html
+2021-10-27T11:56:01.382309+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Orator.md -oOrator.html
+2021-10-27T11:56:01.502640+0100 - __main__ - INFO - sathadhy.html
+2021-10-27T11:56:01.502923+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s sathadhy.md -osathadhy.html
+2021-10-27T11:56:01.611941+0100 - __main__ - INFO - Crontab_Guru.html
+2021-10-27T11:56:01.612329+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Crontab_Guru.md -oCrontab_Guru.html
+2021-10-27T11:56:01.734758+0100 - __main__ - INFO - EverSQL.html
+2021-10-27T11:56:01.735170+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s EverSQL.md -oEverSQL.html
+2021-10-27T11:56:01.875260+0100 - __main__ - INFO - pycrumbs.html
+2021-10-27T11:56:01.875658+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s pycrumbs.md -opycrumbs.html
+2021-10-27T11:56:02.001712+0100 - __main__ - INFO - Sass.html
+2021-10-27T11:56:02.002004+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sass.md -oSass.html
+2021-10-27T11:56:02.109776+0100 - __main__ - INFO - Using_Scrapy_for_Python.html
+2021-10-27T11:56:02.110059+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Using_Scrapy_for_Python.md -oUsing_Scrapy_for_Python.html
+2021-10-27T11:56:02.226947+0100 - __main__ - INFO - Intro_to_Machine_Learning.html
+2021-10-27T11:56:02.227218+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Intro_to_Machine_Learning.md -oIntro_to_Machine_Learning.html
+2021-10-27T11:56:02.351808+0100 - __main__ - INFO - add-gitignore.html
+2021-10-27T11:56:02.352238+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s add-gitignore.md -oadd-gitignore.html
+2021-10-27T11:56:02.473418+0100 - __main__ - INFO - 256_Colors_Cheat_Sheet.html
+2021-10-27T11:56:02.473868+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s 256_Colors_Cheat_Sheet.md -o256_Colors_Cheat_Sheet.html
+2021-10-27T11:56:02.592199+0100 - __main__ - INFO - Resize_Images.html
+2021-10-27T11:56:02.592467+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Resize_Images.md -oResize_Images.html
+2021-10-27T11:56:02.712331+0100 - __main__ - INFO - Sed_Documentation.html
+2021-10-27T11:56:02.712788+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sed_Documentation.md -oSed_Documentation.html
+2021-10-27T11:56:02.835546+0100 - __main__ - INFO - Visualize_Python_Code.html
+2021-10-27T11:56:02.835938+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Visualize_Python_Code.md -oVisualize_Python_Code.html
+2021-10-27T11:56:02.966970+0100 - __main__ - INFO - Sqlitebiter.html
+2021-10-27T11:56:02.967247+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Sqlitebiter.md -oSqlitebiter.html
+2021-10-27T11:56:03.085453+0100 - __main__ - INFO - Easy_Incremental_Backups_With_Tar.html
+2021-10-27T11:56:03.085785+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Easy_Incremental_Backups_With_Tar.md -oEasy_Incremental_Backups_With_Tar.html
+2021-10-27T11:56:03.202643+0100 - __main__ - INFO - Python_Data_Science_Handbook_Online.html
+2021-10-27T11:56:03.202914+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Python_Data_Science_Handbook_Online.md -oPython_Data_Science_Handbook_Online.html
+2021-10-27T11:56:03.321287+0100 - __main__ - INFO - Flask_Now.html
+2021-10-27T11:56:03.321554+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Flask_Now.md -oFlask_Now.html
+2021-10-27T11:56:03.439628+0100 - __main__ - INFO - FuzzyWuzzy.html
+2021-10-27T11:56:03.439940+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s FuzzyWuzzy.md -oFuzzyWuzzy.html
+2021-10-27T11:56:03.560222+0100 - __main__ - INFO - ButterBlog.html
+2021-10-27T11:56:03.560489+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s ButterBlog.md -oButterBlog.html
+2021-10-27T11:56:03.678484+0100 - __main__ - INFO - Google_Style_Guide.html
+2021-10-27T11:56:03.678865+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Google_Style_Guide.md -oGoogle_Style_Guide.html
+2021-10-27T11:56:03.800508+0100 - __main__ - INFO - AutoExpect.html
+2021-10-27T11:56:03.800770+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s AutoExpect.md -oAutoExpect.html
+2021-10-27T11:56:03.921003+0100 - __main__ - INFO - How_to_style_a_radio_buttons_form.html
+2021-10-27T11:56:03.921313+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_style_a_radio_buttons_form.md -oHow_to_style_a_radio_buttons_form.html
+2021-10-27T11:56:04.040935+0100 - __main__ - INFO - Append_Current_Date_To_Filename_in_Bash_Shell.html
+2021-10-27T11:56:04.041195+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Append_Current_Date_To_Filename_in_Bash_Shell.md -oAppend_Current_Date_To_Filename_in_Bash_Shell.html
+2021-10-27T11:56:04.167836+0100 - __main__ - INFO - Zlibrary.html
+2021-10-27T11:56:04.168297+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Zlibrary.md -oZlibrary.html
+2021-10-27T11:56:04.293032+0100 - __main__ - INFO - One_Liners_for_Sed.html
+2021-10-27T11:56:04.293333+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s One_Liners_for_Sed.md -oOne_Liners_for_Sed.html
+2021-10-27T11:56:04.419583+0100 - __main__ - INFO - How_to_create_a_Mail_server_with_SSLTLS_on_Linux.html
+2021-10-27T11:56:04.420029+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_create_a_Mail_server_with_SSLTLS_on_Linux.md -oHow_to_create_a_Mail_server_with_SSLTLS_on_Linux.html
+2021-10-27T11:56:04.551576+0100 - __main__ - INFO - PHP-CS_FIXER.html
+2021-10-27T11:56:04.552003+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s PHP-CS_FIXER.md -oPHP-CS_FIXER.html
+2021-10-27T11:56:04.676977+0100 - __main__ - INFO - Find_and_Replace_Text_in_Vim.html
+2021-10-27T11:56:04.677446+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Find_and_Replace_Text_in_Vim.md -oFind_and_Replace_Text_in_Vim.html
+2021-10-27T11:56:04.800710+0100 - __main__ - INFO - Grep,_Awk_and_Sed.html
+2021-10-27T11:56:04.800989+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Grep,_Awk_and_Sed.md -oGrep,_Awk_and_Sed.html
+2021-10-27T11:56:04.920621+0100 - __main__ - INFO - txt2html.html
+2021-10-27T11:56:04.920922+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s txt2html.md -otxt2html.html
+2021-10-27T11:56:05.039887+0100 - __main__ - INFO - hr.html
+2021-10-27T11:56:05.040166+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s hr.md -ohr.html
+2021-10-27T11:56:05.161262+0100 - __main__ - INFO - Serve_PHP_with_PHP-FPM_and_NGINX.html
+2021-10-27T11:56:05.161544+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Serve_PHP_with_PHP-FPM_and_NGINX.md -oServe_PHP_with_PHP-FPM_and_NGINX.html
+2021-10-27T11:56:05.281415+0100 - __main__ - INFO - List_of_Project_Based_Python_Lessons.html
+2021-10-27T11:56:05.281685+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s List_of_Project_Based_Python_Lessons.md -oList_of_Project_Based_Python_Lessons.html
+2021-10-27T11:56:05.401709+0100 - __main__ - INFO - Bookcut.html
+2021-10-27T11:56:05.402026+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Bookcut.md -oBookcut.html
+2021-10-27T11:56:05.521112+0100 - __main__ - INFO - Ls-colors.html
+2021-10-27T11:56:05.521380+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Ls-colors.md -oLs-colors.html
+2021-10-27T11:56:05.639347+0100 - __main__ - INFO - Questionary.html
+2021-10-27T11:56:05.639652+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Questionary.md -oQuestionary.html
+2021-10-27T11:56:05.759142+0100 - __main__ - INFO - Spell_Check_in_Vim.html
+2021-10-27T11:56:05.759430+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Spell_Check_in_Vim.md -oSpell_Check_in_Vim.html
+2021-10-27T11:56:05.881071+0100 - __main__ - INFO - Deploy_Ruby_App_in_Linux_Server.html
+2021-10-27T11:56:05.881350+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Deploy_Ruby_App_in_Linux_Server.md -oDeploy_Ruby_App_in_Linux_Server.html
+2021-10-27T11:56:06.001813+0100 - __main__ - INFO - Visidata.html
+2021-10-27T11:56:06.002113+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Visidata.md -oVisidata.html
+2021-10-27T11:56:06.122039+0100 - __main__ - INFO - Getting_Started_With_Nginx.html
+2021-10-27T11:56:06.122308+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Getting_Started_With_Nginx.md -oGetting_Started_With_Nginx.html
+2021-10-27T11:56:06.243107+0100 - __main__ - INFO - Special_HTML_characters_and_codes.html
+2021-10-27T11:56:06.243417+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Special_HTML_characters_and_codes.md -oSpecial_HTML_characters_and_codes.html
+2021-10-27T11:56:06.363109+0100 - __main__ - INFO - k.html
+2021-10-27T11:56:06.363379+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s k.md -ok.html
+2021-10-27T11:56:06.481941+0100 - __main__ - INFO - How_to_configure_Backblaze_B2_with_Duplicity_on_Linux.html
+2021-10-27T11:56:06.482235+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s How_to_configure_Backblaze_B2_with_Duplicity_on_Linux.md -oHow_to_configure_Backblaze_B2_with_Duplicity_on_Linux.html
+2021-10-27T11:56:06.602888+0100 - __main__ - INFO - Git_Documentation.html
+2021-10-27T11:56:06.603156+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Git_Documentation.md -oGit_Documentation.html
+2021-10-27T11:56:06.722847+0100 - __main__ - INFO - Vertically_center_an_element_in_CSS.html
+2021-10-27T11:56:06.723149+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Vertically_center_an_element_in_CSS.md -oVertically_center_an_element_in_CSS.html
+2021-10-27T11:56:06.842595+0100 - __main__ - INFO - Cherrypy.html
+2021-10-27T11:56:06.842880+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Cherrypy.md -oCherrypy.html
+2021-10-27T11:56:06.962103+0100 - __main__ - INFO - Rich.html
+2021-10-27T11:56:06.962396+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Rich.md -oRich.html
+2021-10-27T11:56:07.080593+0100 - __main__ - INFO - Scrapy.html
+2021-10-27T11:56:07.080869+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Scrapy.md -oScrapy.html
+2021-10-27T11:56:07.187983+0100 - __main__ - INFO - What_characters_to_escape_in_Sed.html
+2021-10-27T11:56:07.188254+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s What_characters_to_escape_in_Sed.md -oWhat_characters_to_escape_in_Sed.html
+2021-10-27T11:56:07.306636+0100 - __main__ - INFO - Tresorit_Cli.html
+2021-10-27T11:56:07.306901+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Tresorit_Cli.md -oTresorit_Cli.html
+2021-10-27T11:56:07.423268+0100 - __main__ - INFO - Trepan_Python_Debugger.html
+2021-10-27T11:56:07.423539+0100 - __main__ - INFO - pandoc --highlight-style=zenburn -s Trepan_Python_Debugger.md -oTrepan_Python_Debugger.html

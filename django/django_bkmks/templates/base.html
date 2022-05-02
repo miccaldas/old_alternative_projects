@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    {% load static %}
+    <title>django_bkmks</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mclds">
+    <meta name="description" content="bookmark manager">
+    <link href="https://unpkg.com/cirrus-ui" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2553326d6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header header-fixed unselectable header-animated">
+            <div class="header-brand">
+                <div class="nav-item no-hover">
+                    <h5 class="font-alt font-light title">Feed Manager</h5>
+                </div>
+                <div class="nav-item no-hover">
+                    <img src="{% static 'imgs/sun_symbol.png' %}" alt="sun symbol" width="25" height="25" />
+                </div>
+                <div class="nav-item nav-btn" id="header-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="header-nav" id="header-menu">
+            <div class="nav-right">
+                    <div class="nav-item has-sub toggle-hover" id="dropdown">
+                        <h6 class="font-alt font-light nav-dropdown-link">Menu</h6>
+                        <ul class="dropdown-menu dropdown-animated" role="menu">
+                            <li role="menu-item"><a href="#">Update Bookmarks</a></li>
+                            <li role="menu-item"><a href="#">Search Bookmarks</a></li>
+                            <li role="menu-item"><a href="#">Delete Bookmarks</a></li>
+                            <li role="menu-item"><a href="{% url 'new' %}">Add Bookmarks</a></li>
+                            <li role="menu-item"><a href="{% url 'home' %}">Homepage</a></li>
+                            <li role="menu-item"><a href="#">Search</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="space xlarge"></div>
+    <div class="space xlarge"></div>
+    <div class="u-flex">
+        <div class="row">
+            <div class="col-10 offset-1">
+                {% block content %}
+                {% endblock content %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,608 @@
+2021-12-17T14:50:50.836509+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31642), thread 'MainThread' (140256670054208):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7f900b3a7d00>
+    └ <add.Add object at 0x7f900ae76620>
+
+  File "/home/mic/python/notes/options/add.py", line 93, in issimilar
+    value = process.extractOne(k, self.records)
+            │       │          │  └ <add.Add object at 0x7f900ae76620>
+            │       │          └ 'pypi'
+            │       └ <function extractOne at 0x7f900bb717e0>
+            └ <module 'thefuzz.process' from '/home/mic/.local/lib/python3.10/site-packages/thefuzz/process.py'>
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T14:50:50.843427+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31642), thread 'MainThread' (140256670054208):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 50, in <module>
+    add.new_tag()
+    │   └ <function Add.new_tag at 0x7f900b0740d0>
+    └ <add.Add object at 0x7f900ae76620>
+
+  File "/home/mic/python/notes/options/add.py", line 123, in new_tag
+    res = any(k in i for i in self.records)
+              │               └ <add.Add object at 0x7f900ae76620>
+              └ 'pypi'
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T14:50:50.846744+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31642), thread 'MainThread' (140256670054208):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7f900b074430>
+    └ <add.Add object at 0x7f900ae76620>
+
+  File "/home/mic/python/notes/options/add.py", line 136, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7f900ae76620>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T14:50:50.851236+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31642), thread 'MainThread' (140256670054208):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f900b074af0>
+    └ <add.Add object at 0x7f900ae76620>
+
+  File "/home/mic/python/notes/options/add.py", line 190, in add_md_page
+    for row in records:
+
+UnboundLocalError: local variable 'records' referenced before assignment
+2021-12-17T14:55:07.103844+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31781), thread 'MainThread' (140522513106752):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7fcdf0827d00>
+    └ <add.Add object at 0x7fcdf062a620>
+
+  File "/home/mic/python/notes/options/add.py", line 93, in issimilar
+    value = process.extractOne(k, self.records)
+            │       │          │  └ <add.Add object at 0x7fcdf062a620>
+            │       │          └ 'testge'
+            │       └ <function extractOne at 0x7fcdf13257e0>
+            └ <module 'thefuzz.process' from '/home/mic/.local/lib/python3.10/site-packages/thefuzz/process.py'>
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T14:55:07.110345+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31781), thread 'MainThread' (140522513106752):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 50, in <module>
+    add.new_tag()
+    │   └ <function Add.new_tag at 0x7fcdf08300d0>
+    └ <add.Add object at 0x7fcdf062a620>
+
+  File "/home/mic/python/notes/options/add.py", line 123, in new_tag
+    res = any(k in i for i in self.records)
+              │               └ <add.Add object at 0x7fcdf062a620>
+              └ 'testge'
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T14:55:07.115249+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31781), thread 'MainThread' (140522513106752):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7fcdf0830430>
+    └ <add.Add object at 0x7fcdf062a620>
+
+  File "/home/mic/python/notes/options/add.py", line 136, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7fcdf062a620>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T14:55:07.119463+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31781), thread 'MainThread' (140522513106752):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7fcdf0830af0>
+    └ <add.Add object at 0x7fcdf062a620>
+
+  File "/home/mic/python/notes/options/add.py", line 190, in add_md_page
+    for row in records:
+
+UnboundLocalError: local variable 'records' referenced before assignment
+2021-12-17T14:56:56.371377+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31832), thread 'MainThread' (139996629071680):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7f537f93fd00>
+    └ <add.Add object at 0x7f537f40a620>
+
+  File "/home/mic/python/notes/options/add.py", line 90, in issimilar
+    value = process.extractOne(k, self.records)
+            │       │          │  └ <add.Add object at 0x7f537f40a620>
+            │       │          └ 'zxfbv'
+            │       └ <function extractOne at 0x7f53801097e0>
+            └ <module 'thefuzz.process' from '/home/mic/.local/lib/python3.10/site-packages/thefuzz/process.py'>
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T14:56:56.380349+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31832), thread 'MainThread' (139996629071680):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 50, in <module>
+    add.new_tag()
+    │   └ <function Add.new_tag at 0x7f537f60c0d0>
+    └ <add.Add object at 0x7f537f40a620>
+
+  File "/home/mic/python/notes/options/add.py", line 120, in new_tag
+    res = any(k in i for i in self.records)
+              │               └ <add.Add object at 0x7f537f40a620>
+              └ 'zxfbv'
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T14:56:56.384192+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31832), thread 'MainThread' (139996629071680):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7f537f60c430>
+    └ <add.Add object at 0x7f537f40a620>
+
+  File "/home/mic/python/notes/options/add.py", line 133, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7f537f40a620>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T14:56:56.390669+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31832), thread 'MainThread' (139996629071680):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f537f60caf0>
+    └ <add.Add object at 0x7f537f40a620>
+
+  File "/home/mic/python/notes/options/add.py", line 187, in add_md_page
+    for row in records:
+
+UnboundLocalError: local variable 'records' referenced before assignment
+2021-12-17T15:03:40.793948+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31987), thread 'MainThread' (140072600532800):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/network.py", line 574, in open_connection
+    self.sock.connect(sockaddr)
+    │    │    │       └ ('127.0.0.1', 3306)
+    │    │    └ <method 'connect' of '_socket.socket' objects>
+    │    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>
+    └ <mysql.connector.network.MySQLTCPSocket object at 0x7f652f884310>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7f652fd4fbe0>
+    └ <add.Add object at 0x7f652f82a620>
+
+  File "/home/mic/python/notes/options/add.py", line 89, in issimilar
+    conn = connect(host="localhost", user="mic", password="xxxx", database="notes")
+           └ <function connect at 0x7f652fd4cee0>
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/__init__.py", line 273, in connect
+    return MySQLConnection(*args, **kwargs)
+           │                │       └ {'host': 'localhost', 'user': 'mic', 'password': 'xxxx', 'database': 'notes'}
+           │                └ ()
+           └ <class 'mysql.connector.connection.MySQLConnection'>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 114, in __init__
+    self.connect(**kwargs)
+    │    │         └ {'host': 'localhost', 'user': 'mic', 'password': 'xxxx', 'database': 'notes'}
+    │    └ <function MySQLConnectionAbstract.connect at 0x7f652fd279a0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f652f876bf0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1014, in connect
+    self._open_connection()
+    │    └ <function MySQLConnection._open_connection at 0x7f652fd36f80>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f652f876bf0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 426, in _open_connection
+    self._socket.open_connection()
+    │    └ None
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f652f876bf0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/network.py", line 576, in open_connection
+    raise errors.InterfaceError(
+          │      └ <class 'mysql.connector.errors.InterfaceError'>
+          └ <module 'mysql.connector.errors' from '/usr/lib/python3.10/site-packages/mysql/connector/errors.py'>
+
+mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
+2021-12-17T15:03:40.807876+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31987), thread 'MainThread' (140072600532800):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 50, in <module>
+    add.new_tag()
+    │   └ <function Add.new_tag at 0x7f652fd4ff40>
+    └ <add.Add object at 0x7f652f82a620>
+
+  File "/home/mic/python/notes/options/add.py", line 128, in new_tag
+    res = any(k in i for i in self.records)
+              │               └ <add.Add object at 0x7f652f82a620>
+              └ 'z<fhb'
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T15:03:40.812644+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31987), thread 'MainThread' (140072600532800):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7f652fa28310>
+    └ <add.Add object at 0x7f652f82a620>
+
+  File "/home/mic/python/notes/options/add.py", line 141, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7f652f82a620>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T15:03:40.816594+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (31987), thread 'MainThread' (140072600532800):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f652fa289d0>
+    └ <add.Add object at 0x7f652f82a620>
+
+  File "/home/mic/python/notes/options/add.py", line 195, in add_md_page
+    for row in records:
+
+UnboundLocalError: local variable 'records' referenced before assignment
+2021-12-17T15:06:01.978361+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (32042), thread 'MainThread' (140502587721536):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/network.py", line 574, in open_connection
+    self.sock.connect(sockaddr)
+    │    │    │       └ ('127.0.0.1', 3306)
+    │    │    └ <method 'connect' of '_socket.socket' objects>
+    │    └ <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>
+    └ <mysql.connector.network.MySQLTCPSocket object at 0x7fc94cc48310>
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7fc94d113be0>
+    └ <add.Add object at 0x7fc94cbea620>
+
+  File "/home/mic/python/notes/options/add.py", line 89, in issimilar
+    conn = connect(host="localhost", user="root", password="xxxx", database="notes")
+           └ <function connect at 0x7fc94d110ee0>
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/__init__.py", line 273, in connect
+    return MySQLConnection(*args, **kwargs)
+           │                │       └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+           │                └ ()
+           └ <class 'mysql.connector.connection.MySQLConnection'>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 114, in __init__
+    self.connect(**kwargs)
+    │    │         └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+    │    └ <function MySQLConnectionAbstract.connect at 0x7fc94d0eb9a0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7fc94cc3abf0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1014, in connect
+    self._open_connection()
+    │    └ <function MySQLConnection._open_connection at 0x7fc94d0faf80>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7fc94cc3abf0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 426, in _open_connection
+    self._socket.open_connection()
+    │    └ None
+    └ <mysql.connector.connection.MySQLConnection object at 0x7fc94cc3abf0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/network.py", line 576, in open_connection
+    raise errors.InterfaceError(
+          │      └ <class 'mysql.connector.errors.InterfaceError'>
+          └ <module 'mysql.connector.errors' from '/usr/lib/python3.10/site-packages/mysql/connector/errors.py'>
+
+mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
+2021-12-17T15:06:01.995516+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (32042), thread 'MainThread' (140502587721536):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 50, in <module>
+    add.new_tag()
+    │   └ <function Add.new_tag at 0x7fc94d113f40>
+    └ <add.Add object at 0x7fc94cbea620>
+
+  File "/home/mic/python/notes/options/add.py", line 128, in new_tag
+    res = any(k in i for i in self.records)
+              │               └ <add.Add object at 0x7fc94cbea620>
+              └ 'xzfhbb'
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T15:06:01.999158+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (32042), thread 'MainThread' (140502587721536):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7fc94cdec310>
+    └ <add.Add object at 0x7fc94cbea620>
+
+  File "/home/mic/python/notes/options/add.py", line 141, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7fc94cbea620>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T15:06:02.003356+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (32042), thread 'MainThread' (140502587721536):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7fc94cdec9d0>
+    └ <add.Add object at 0x7fc94cbea620>
+
+  File "/home/mic/python/notes/options/add.py", line 195, in add_md_page
+    for row in records:
+
+UnboundLocalError: local variable 'records' referenced before assignment
+2021-12-17T15:27:05.774201+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33085), thread 'MainThread' (139728711673664):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7f151e75fbe0>
+    └ <add.Add object at 0x7f151e232500>
+
+  File "/home/mic/python/notes/options/add.py", line 89, in issimilar
+    conn = connect(host="localhost", user="root", password="xxxx", database="notes")
+           └ <function connect at 0x7f151e75cee0>
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/__init__.py", line 273, in connect
+    return MySQLConnection(*args, **kwargs)
+           │                │       └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+           │                └ ()
+           └ <class 'mysql.connector.connection.MySQLConnection'>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 114, in __init__
+    self.connect(**kwargs)
+    │    │         └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+    │    └ <function MySQLConnectionAbstract.connect at 0x7f151e7379a0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f151e27ea40>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1014, in connect
+    self._open_connection()
+    │    └ <function MySQLConnection._open_connection at 0x7f151e746f80>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f151e27ea40>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 428, in _open_connection
+    self._do_auth(self._user, self._password,
+    │    │        │    │      │    └ 'xxxx'
+    │    │        │    │      └ <mysql.connector.connection.MySQLConnection object at 0x7f151e27ea40>
+    │    │        │    └ 'root'
+    │    │        └ <mysql.connector.connection.MySQLConnection object at 0x7f151e27ea40>
+    │    └ <function MySQLConnection._do_auth at 0x7f151e746dd0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f151e27ea40>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 229, in _do_auth
+    self._auth_switch_request(username, password)
+    │    │                    │         └ 'xxxx'
+    │    │                    └ 'root'
+    │    └ <function MySQLConnection._auth_switch_request at 0x7f151e746e60>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f151e27ea40>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 380, in _auth_switch_request
+    raise errors.get_exception(packet)
+          │      │             └ bytearray(b"2\x00\x00\x02\xff\xa2\x06#28000Access denied for user \'root\'@\'localhost\'")
+          │      └ <function get_exception at 0x7f151e685120>
+          └ <module 'mysql.connector.errors' from '/usr/lib/python3.10/site-packages/mysql/connector/errors.py'>
+
+mysql.connector.errors.ProgrammingError: 1698 (28000): Access denied for user 'root'@'localhost'
+2021-12-17T15:27:05.788368+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33085), thread 'MainThread' (139728711673664):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 50, in <module>
+    add.new_tag()
+    │   └ <function Add.new_tag at 0x7f151e75ff40>
+    └ <add.Add object at 0x7f151e232500>
+
+  File "/home/mic/python/notes/options/add.py", line 128, in new_tag
+    res = any(k in i for i in self.records)
+              │               └ <add.Add object at 0x7f151e232500>
+              └ '<XZFG'
+
+AttributeError: 'Add' object has no attribute 'records'
+2021-12-17T15:27:05.792077+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33085), thread 'MainThread' (139728711673664):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7f151e434310>
+    └ <add.Add object at 0x7f151e232500>
+
+  File "/home/mic/python/notes/options/add.py", line 141, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7f151e232500>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T15:27:05.796256+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33085), thread 'MainThread' (139728711673664):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f151e4349d0>
+    └ <add.Add object at 0x7f151e232500>
+
+  File "/home/mic/python/notes/options/add.py", line 195, in add_md_page
+    for row in records:
+
+UnboundLocalError: local variable 'records' referenced before assignment
+2021-12-17T15:28:59.500643+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33175), thread 'MainThread' (140140504926016):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 49, in <module>
+    add.issimilar()
+    │   └ <function Add.issimilar at 0x7f74ff403be0>
+    └ <add.Add object at 0x7f74feeda650>
+
+  File "/home/mic/python/notes/options/add.py", line 89, in issimilar
+    conn = connect(host="localhost", user="root", password="xxxx", database="notes")
+           └ <function connect at 0x7f74ff400ee0>
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/__init__.py", line 273, in connect
+    return MySQLConnection(*args, **kwargs)
+           │                │       └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+           │                └ ()
+           └ <class 'mysql.connector.connection.MySQLConnection'>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 114, in __init__
+    self.connect(**kwargs)
+    │    │         └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+    │    └ <function MySQLConnectionAbstract.connect at 0x7f74ff3db9a0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f74fede5bd0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1014, in connect
+    self._open_connection()
+    │    └ <function MySQLConnection._open_connection at 0x7f74ff3eaf80>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f74fede5bd0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 428, in _open_connection
+    self._do_auth(self._user, self._password,
+    │    │        │    │      │    └ 'xxxx'
+    │    │        │    │      └ <mysql.connector.connection.MySQLConnection object at 0x7f74fede5bd0>
+    │    │        │    └ 'root'
+    │    │        └ <mysql.connector.connection.MySQLConnection object at 0x7f74fede5bd0>
+    │    └ <function MySQLConnection._do_auth at 0x7f74ff3eadd0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f74fede5bd0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 229, in _do_auth
+    self._auth_switch_request(username, password)
+    │    │                    │         └ 'xxxx'
+    │    │                    └ 'root'
+    │    └ <function MySQLConnection._auth_switch_request at 0x7f74ff3eae60>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f74fede5bd0>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 380, in _auth_switch_request
+    raise errors.get_exception(packet)
+          │      │             └ bytearray(b"2\x00\x00\x02\xff\xa2\x06#28000Access denied for user \'root\'@\'localhost\'")
+          │      └ <function get_exception at 0x7f74ff329120>
+          └ <module 'mysql.connector.errors' from '/usr/lib/python3.10/site-packages/mysql/connector/errors.py'>
+
+mysql.connector.errors.ProgrammingError: 1698 (28000): Access denied for user 'root'@'localhost'
+2021-12-17T15:28:59.515342+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33175), thread 'MainThread' (140140504926016):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7f74ff0dc310>
+    └ <add.Add object at 0x7f74feeda650>
+
+  File "/home/mic/python/notes/options/add.py", line 141, in count_links
+    for i in self.links:
+             └ <add.Add object at 0x7f74feeda650>
+
+AttributeError: 'Add' object has no attribute 'links'
+2021-12-17T15:28:59.524278+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33175), thread 'MainThread' (140140504926016):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f74ff0dc9d0>
+    └ <add.Add object at 0x7f74feeda650>
+
+  File "/home/mic/python/notes/options/add.py", line 204, in add_md_page
+    with open(self.md_path, "w") as f:
+              │    └ '/srv/http/notes/pages/markdown/zxgv.md'
+              └ <add.Add object at 0x7f74feeda650>
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/notes/pages/markdown/zxgv.md'
+2021-12-17T15:33:57.418462+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33310), thread 'MainThread' (139998625601344):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 51, in <module>
+    add.count_links()
+    │   └ <function Add.count_links at 0x7f53f69603a0>
+    └ <add.Add object at 0x7f53f661a650>
+
+  File "/home/mic/python/notes/options/add.py", line 147, in count_links
+    conn = connect(host="localhost", user="root", password="xxxx", database="notes")
+           └ <function connect at 0x7f53f6948f70>
+
+  File "/usr/lib/python3.10/site-packages/mysql/connector/__init__.py", line 273, in connect
+    return MySQLConnection(*args, **kwargs)
+           │                │       └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+           │                └ ()
+           └ <class 'mysql.connector.connection.MySQLConnection'>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 114, in __init__
+    self.connect(**kwargs)
+    │    │         └ {'host': 'localhost', 'user': 'root', 'password': 'xxxx', 'database': 'notes'}
+    │    └ <function MySQLConnectionAbstract.connect at 0x7f53f6923a30>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f53f6362680>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1014, in connect
+    self._open_connection()
+    │    └ <function MySQLConnection._open_connection at 0x7f53f6933010>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f53f6362680>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 428, in _open_connection
+    self._do_auth(self._user, self._password,
+    │    │        │    │      │    └ 'xxxx'
+    │    │        │    │      └ <mysql.connector.connection.MySQLConnection object at 0x7f53f6362680>
+    │    │        │    └ 'root'
+    │    │        └ <mysql.connector.connection.MySQLConnection object at 0x7f53f6362680>
+    │    └ <function MySQLConnection._do_auth at 0x7f53f6932e60>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f53f6362680>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 229, in _do_auth
+    self._auth_switch_request(username, password)
+    │    │                    │         └ 'xxxx'
+    │    │                    └ 'root'
+    │    └ <function MySQLConnection._auth_switch_request at 0x7f53f6932ef0>
+    └ <mysql.connector.connection.MySQLConnection object at 0x7f53f6362680>
+  File "/usr/lib/python3.10/site-packages/mysql/connector/connection.py", line 380, in _auth_switch_request
+    raise errors.get_exception(packet)
+          │      │             └ bytearray(b"2\x00\x00\x02\xff\xa2\x06#28000Access denied for user \'root\'@\'localhost\'")
+          │      └ <function get_exception at 0x7f53f68711b0>
+          └ <module 'mysql.connector.errors' from '/usr/lib/python3.10/site-packages/mysql/connector/errors.py'>
+
+mysql.connector.errors.ProgrammingError: 1698 (28000): Access denied for user 'root'@'localhost'
+2021-12-17T15:33:57.438100+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33310), thread 'MainThread' (139998625601344):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f53f6960a60>
+    └ <add.Add object at 0x7f53f661a650>
+
+  File "/home/mic/python/notes/options/add.py", line 218, in add_md_page
+    with open(self.md_path, "w") as f:
+              │    └ '/srv/http/notes/pages/markdown/xfg.md'
+              └ <add.Add object at 0x7f53f661a650>
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/notes/pages/markdown/xfg.md'
+2021-12-17T15:34:58.758170+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33345), thread 'MainThread' (140397993277248):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7fb0f28dca60>
+    └ <add.Add object at 0x7fb0f26de650>
+
+  File "/home/mic/python/notes/options/add.py", line 218, in add_md_page
+    with open(self.md_path, "w") as f:
+              │    └ '/srv/http/notes/pages/markdown/adsghb.md'
+              └ <add.Add object at 0x7fb0f26de650>
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/notes/pages/markdown/adsghb.md'
+2021-12-17T15:38:42.582557+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (33427), thread 'MainThread' (140556772308800):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7fd5ea858a60>
+    └ <add.Add object at 0x7fd5ea65a650>
+
+  File "/home/mic/python/notes/options/add.py", line 218, in add_md_page
+    with open(self.md_path, "w") as f:
+              │    └ '/srv/http/notes/pages/markdown/xfbh.md'
+              └ <add.Add object at 0x7fd5ea65a650>
+
+FileNotFoundError: [Errno 2] No such file or directory: '/srv/http/notes/pages/markdown/xfbh.md'
+2021-12-17T15:57:59.317298+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (34176), thread 'MainThread' (139752653076288):
+Traceback (most recent call last):
+
+> File "/home/mic/python/notes/options/main.py", line 53, in <module>
+    add.add_md_page()
+    │   └ <function Add.add_md_page at 0x7f1ab1478a60>
+    └ <add.Add object at 0x7f1ab127e500>
+
+  File "/home/mic/python/notes/options/add.py", line 218, in add_md_page
+    with open(self.md_path, "w") as f:
+              │    └ '/srv/http/notes/pages/markdown/safg.md'
+              └ <add.Add object at 0x7f1ab127e500>
+
+PermissionError: [Errno 13] Permission denied: '/srv/http/notes/pages/markdown/safg.md'
